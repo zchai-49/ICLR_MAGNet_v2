@@ -1,0 +1,87 @@
+{
+  "dataset": "SDWPF (Short-term Deterministic Wind Power Forecasting) dataset containing hourly meteorological observations and wind turbine power output. This dataset is widely used for wind power forecasting research, capturing the complex relationship between weather variables and actual power generation.",
+  "variant": "pstats",
+  "variables": [
+    "active_power",
+    "temperature",
+    "surface_pressure",
+    "relative_humidity",
+    "wind_speed",
+    "wind_direction",
+    "theoretical_power"
+  ],
+  "short": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 449.5317, Std: 501.6347\n- Range: [-7.0600, 1559.8600]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9504324048043381\n- acf_lag24 (daily cycle): 0.28359963700203344\n- Coefficient of variation (relative volatility): 1.1159"
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 10.8667, Std: 13.4184\n- Range: [-22.3022, 34.9477]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9948969096602744\n- acf_lag24 (daily cycle): 0.7785466401515652\n- Coefficient of variation (relative volatility): 1.2348"
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 85358.0808, Std: 623.6268\n- Range: [83845.8300, 87327.0550]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9985278886801481\n- acf_lag24 (daily cycle): 0.9111467948229454\n- Coefficient of variation (relative volatility): 0.0073"
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.3171, Std: 0.1815\n- Range: [0.0254, 0.9846]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9861760739984129\n- acf_lag24 (daily cycle): 0.360071761635141\n- Coefficient of variation (relative volatility): 0.5723"
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 4.9443, Std: 2.4332\n- Range: [0.0757, 15.6277]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9743768950177442\n- acf_lag24 (daily cycle): 0.17325090727482506\n- Coefficient of variation (relative volatility): 0.4921"
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 165.2912, Std: 107.2835\n- Range: [0.0082, 359.9845]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9293736506228226\n- acf_lag24 (daily cycle): 0.1612992525412634\n- Coefficient of variation (relative volatility): 0.6491"
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0000, Std: 0.0000\n- Range: [0.0000, 0.0015]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8256261593039174\n- acf_lag24 (daily cycle): 0.045462925453777184\n- Coefficient of variation (relative volatility): 8.5327"
+    }
+  ],
+  "long": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 449.5317, Std: 501.6347\n- Overall trend: decreasing (slope=-0.005466 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.004\n- acf_lag168 (weekly cycle): -0.008500810227881595\n- acf_lag720 (monthly cycle): 0.017674660657977608\n- Seasonality strength (period-to-period variation): strong (0.469)"
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 10.8667, Std: 13.4184\n- Overall trend: decreasing (slope=-0.000595 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.069\n- acf_lag168 (weekly cycle): 0.740761405913673\n- acf_lag720 (monthly cycle): 0.9088811053655553\n- Seasonality strength (period-to-period variation): strong (0.932)"
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 85358.0808, Std: 623.6268\n- Overall trend: increasing (slope=0.017754 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.028\n- acf_lag168 (weekly cycle): 0.5730658016885714\n- acf_lag720 (monthly cycle): 0.5586211634748154\n- Seasonality strength (period-to-period variation): strong (0.901)"
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.3171, Std: 0.1815\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.10167952905344167\n- acf_lag720 (monthly cycle): 0.44371585475406905\n- Seasonality strength (period-to-period variation): strong (0.706)"
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 4.9443, Std: 2.4332\n- Overall trend: increasing (slope=0.000010 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): -0.0019710924444344053\n- acf_lag720 (monthly cycle): 0.06506097664566042\n- Seasonality strength (period-to-period variation): strong (0.454)"
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 165.2912, Std: 107.2835\n- Overall trend: increasing (slope=0.001039 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.003\n- acf_lag168 (weekly cycle): -0.08593523434829625\n- acf_lag720 (monthly cycle): 0.15551267203119626\n- Seasonality strength (period-to-period variation): strong (0.452)"
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0000, Std: 0.0000\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.875\n- acf_lag168 (weekly cycle): -0.005823614384899114\n- acf_lag720 (monthly cycle): -0.007657290151104613\n- Seasonality strength (period-to-period variation): moderate (0.267)"
+    }
+  ]
+}

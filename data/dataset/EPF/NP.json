@@ -1,0 +1,26 @@
+{
+    "name"   : "NP",
+    "context": "Nord Pool electricity market dataset with hourly electricity price and exogenous grid measurements spanning 6 years (2013-01-01 to 2018-12-24).",
+    "endo": [
+        {
+            "name"       : "price",
+            "index"      : 0,
+            "type"       : "endo",
+            "description": "Day-ahead hourly electricity price in the Nord Pool market (EUR/MWh)."
+        }
+    ],
+    "exo": [
+        {
+            "name"       : "grid_load_forecast",
+            "index"      : 1,
+            "type"       : "exo",
+            "description": "Forecasted total grid load in MW, reflecting anticipated electricity demand across the Nord Pool system."
+        },
+        {
+            "name"       : "wind_power_forecast",
+            "index"      : 2,
+            "type"       : "exo",
+            "description": "Forecasted wind power generation in MW, capturing the expected renewable energy supply in the market."
+        }
+    ]
+}

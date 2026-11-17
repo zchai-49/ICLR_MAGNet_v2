@@ -1,0 +1,26 @@
+{
+    "name"   : "BE",
+    "context": "Belgium electricity market dataset with hourly electricity price and exogenous load and generation measurements spanning 6 years (2011-01-09 to 2016-12-31).",
+    "endo": [
+        {
+            "name"       : "price",
+            "index"      : 0,
+            "type"       : "endo",
+            "description": "Day-ahead hourly electricity price in the Belgian electricity market (EUR/MWh)."
+        }
+    ],
+    "exo": [
+        {
+            "name"       : "system_load_forecast",
+            "index"      : 1,
+            "type"       : "exo",
+            "description": "Forecasted total electricity system load in MW for Belgium, reflecting anticipated national electricity demand."
+        },
+        {
+            "name"       : "generation_forecast",
+            "index"      : 2,
+            "type"       : "exo",
+            "description": "Forecasted total power generation in MW for France, capturing cross-border supply conditions that influence Belgian electricity prices."
+        }
+    ]
+}

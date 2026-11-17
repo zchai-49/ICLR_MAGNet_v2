@@ -1,0 +1,26 @@
+{
+    "name": "Rapel",
+    "context": "Rapel reservoir dataset from Chile, containing daily measurements of water level, tributary inflow, and precipitation. This reservoir is a key hydroelectric asset in Chile's electricity system, where inflow and precipitation strongly influence water level dynamics.",
+    "endo": [
+        {
+            "name": "water_level",
+            "index": 0,
+            "type": "endo",
+            "description": "Daily average water level in the Rapel reservoir. This is the primary target variable for forecasting reservoir state and supporting hydroelectric generation planning."
+        }
+    ],
+    "exo": [
+        {
+            "name": "tributary_inflow",
+            "index": 1,
+            "type": "exo",
+            "description": "Daily average tributary inflow (Afluente) in m³/s into the Rapel reservoir. This is the main exogenous driver of changes in reservoir water level."
+        },
+        {
+            "name": "precipitation",
+            "index": 2,
+            "type": "exo",
+            "description": "Daily precipitation affecting the Rapel reservoir catchment area. This exogenous variable provides additional predictive power for future inflow and water level changes."
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+  "dataset": "SDWPF (Short-term Deterministic Wind Power Forecasting) dataset containing hourly meteorological observations and wind turbine power output. This dataset is widely used for wind power forecasting research, capturing the complex relationship between weather variables and actual power generation.",
+  "variant": "qwen",
+  "variables": [
+    "active_power",
+    "temperature",
+    "surface_pressure",
+    "relative_humidity",
+    "wind_speed",
+    "wind_direction",
+    "theoretical_power"
+  ],
+  "short": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "1. The short-term temporal pattern is persistent as indicated by the high lag-1 autocorrelation value of 0.9098, suggesting that the active power output tends to persist at similar levels from one hour to the next. \n2. The variable is relatively noisy within a day or week, reflecting high volatility as evidenced by a coefficient of variation (relative volatility) of 1.1010.\n3. The active power output changes most at the sub-daily time scale, likely due to variations in wind speed and direction.\n4. Sudden spikes or drops in active power output are likely caused by significant changes in wind speed and direction, which can occur at various sub-daily time scales."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "1. Temperature has a strong causal influence on active_power. The high lag-1 autocorrelation (0.9898) indicates that temperature changes significantly impact the next hour's active_power output, suggesting a strong causal relationship.\n2. An increase in temperature typically decreases active_power. This relationship is not linear but shows a strong persistence, as indicated by the high lag-1 autocorrelation.\n3. There are no specific threshold values of temperature beyond which the effect on active_power changes dramatically, as the high autocorrelation suggests a continuous influence.\n4. Temperature is likely a leading indicator. The high lag-1 autocorrelation implies that changes in temperature precede changes in active_power, with a typical lag of about one hour.\n5. Temperature exhibits a persistent pattern, consistent with the high lag-1 autocorrelation value of 0.9898.\n6. Temperature is highly predictable step-by-step, changing most at the sub-daily scale, with daily cycles also influencing active_power."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "1. The causal influence of surface_pressure on active_power is strong. Changes in surface pressure lead to variations in air density, affecting wind speeds and thus power generation.\n2. An increase in surface_pressure typically increases active_power. The relationship is not strictly linear but shows a strong correlation, suggesting that higher pressures can enhance power output through increased wind speeds.\n3. There are no specific threshold values where the effect of surface_pressure on active_power changes dramatically; the relationship is generally consistent across a wide range of pressures.\n4. Surface_pressure is a leading indicator. It changes before active_power, with a typical lag of around 1-2 hours.\n5. The short-term temporal pattern of surface_pressure is volatile. The high lag-1 autocorrelation (0.997) supports this, indicating significant persistence in pressure changes over short periods.\n6. Surface_pressure is highly predictable step-by-step, with changes most evident at sub-daily time scales, particularly within the first 24 hours."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "1. Relative humidity has a strong causal influence on active power. It affects air density and turbine performance, influencing the efficiency of energy extraction from the wind.\n2. An increase in relative humidity typically decreases active power. The relationship is not linear but shows a significant daily cycle, suggesting nonlinear regimes or threshold effects.\n3. There are specific threshold values of relative humidity (around 50% and 80%) beyond which its effect on active power changes dramatically, indicating nonlinear regimes.\n4. Relative humidity is a leading indicator, changing before active power. The typical lag is around 1-2 days.\n5. The short-term temporal pattern of relative humidity is volatile, supported by a high lag-1 autocorrelation value of 0.9723.\n6. Relative humidity is highly predictable step-to-step, changing most at the sub-daily time scale, with daily cycles also being significant."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "1. Wind_speed has a strong causal influence on active_power. As wind speed increases, so does the power output, driven by the direct conversion of kinetic energy into electrical energy through the turbine blades.\n2. An increase in wind_speed typically increases active_power. The relationship is not strictly linear but shows a strong positive correlation, with a lag-1 autocorrelation of 0.9487 indicating a high persistence in power output following changes in wind speed.\n3. There are no specific threshold values where the effect of wind_speed on active_power changes dramatically; the relationship is generally consistent across a wide range of wind speeds.\n4. Wind_speed is a leading indicator, changing before active_power. The typical lag is around 1 hour.\n5. The short-term temporal pattern of wind_speed is persistent, supported by a high lag-1 autocorrelation of 0.9487, indicating that wind speed tends to remain relatively stable over short periods.\n6. Wind_speed is highly predictable step-by-step, with changes most evident at sub-daily time scales, reflecting the immediate impact of wind conditions on power generation."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "1. The causal influence of wind_direction on active_power is moderate. As wind direction shifts, it influences the angle of the wind relative to the turbine blades, affecting the efficiency of power capture, which explains the moderate causal strength.\n2. An increase in wind_direction typically increases active_power, but the relationship is not necessarily linear. There may be nonlinear regimes where further increases in wind direction do not proportionally increase power output due to factors like wake effects.\n3. There are likely specific threshold values of wind_direction beyond which the effect on active_power changes dramatically, such as when wind direction shifts from optimal to less favorable positions.\n4. Wind_direction is a leading indicator, changing before active_power. The typical lag is around 1-2 hours, reflecting the immediate impact of wind conditions on power generation.\n5. The short-term temporal pattern of wind_direction is volatile, with a high lag-1 autocorrelation (0.8587), indicating that changes in wind direction are closely followed by similar changes in subsequent periods.\n6. Wind_direction is relatively predictable step-to-step, but its predictability changes more at the sub-daily scale, particularly around daily cycles (lag-24)."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "Theoretical_power has a moderate causal influence on active_power, reflecting that higher wind speeds generally lead to increased power output but not always in a linear fashion. An increase in theoretical_power typically leads to an increase in active_power, though the relationship isn't perfectly linear; there might be nonlinear regimes or threshold effects where beyond certain wind speeds, power output changes more abruptly. There are no specific threshold values identified where the effect of theoretical_power on active_power changes dramatically. Theoretical_power is a leading indicator, changing before active_power, with a typical lag of around 1 hour. Theoretical_power exhibits a volatile short-term pattern, supported by its high lag-1 autocorrelation. Theoretical_power's predictability is strong step-to-step, with changes most evident at sub-daily time scales, particularly within the first 24 hours."
+    }
+  ],
+  "long": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "The long-term trend is decreasing, supported by a slope of -0.010871 per time step and a trend strength R\u00b2 of 0.004, indicating a weak overall downward trend. The seasonal pattern is strong, repeating reliably week-over-week as evidenced by the high acf_lag168 value of 0.080478, while the monthly cycle shows a weaker but still significant pattern with an acf_lag720 value of -0.032822. Over a horizon of weeks to months, the weekly cycle drives the largest changes due to its high autocorrelation. Long-term deviations from the seasonal pattern are driven by structural changes such as maintenance schedules, weather anomalies, and operational adjustments."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "1. The causal influence of temperature on active_power over long horizons is moderate. As temperature increases, active_power generally decreases, but the relationship is not linear due to nonlinear regimes or threshold effects.\n2. An increase in temperature typically decreases active_power over the long term. This relationship is not linear; there are nonlinear regimes or threshold effects where the impact of temperature on active_power changes.\n3. There are likely threshold values of temperature beyond which its long-term effect on active_power changes dramatically, indicating nonlinear regimes.\n4. The long-term causal influence of temperature on active_power is weaker than its short-term influence. It becomes a strong predictor when the overall trend of active_power is decreasing, and it remains a weak predictor during periods of increasing active_power.\n5. The long-term trend of temperature itself is decreasing over months, repeating reliably at monthly cycles.\n6. The seasonal pattern of temperature aligns with the seasonal pattern of active_power, with both showing strong periodicity at weekly and monthly cycles."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "1. The causal influence of surface_pressure on active_power over long horizons is moderate. Physically, increased surface pressure can lead to lower wind speeds, reducing power generation.\n2. Generally, an increase in surface_pressure decreases active_power over the long term, likely due to reduced wind speeds. This relationship is not linear but shows a strong seasonal component.\n3. There are no clear threshold values where the long-term effect of surface_pressure on active_power changes dramatically.\n4. The long-term causal influence of surface_pressure on active_power is weaker compared to short-term influences. It becomes a strong predictor when surface_pressure shows strong seasonal variations, indicating significant changes in wind patterns.\n5. The long-term trend of surface_pressure is decreasing over months, repeating reliably at monthly cycles.\n6. The seasonal pattern of surface_pressure aligns with the seasonal pattern of active_power, with both showing strong monthly cycles."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "1. The causal influence of relative_humidity on active_power over long horizons is moderate. As relative_humidity increases, active_power generally decreases due to reduced air density and turbine performance efficiency.\n2. An increase in relative_humidity typically decreases active_power over the long term. This relationship is not linear but shows a strong seasonal component, with a weekly cycle (acf_lag168 = 0.519) and a monthly cycle (acf_lag720 = 0.446).\n3. There are likely threshold values of relative_humidity beyond which its long-term effect on active_power changes dramatically, possibly indicating a shift from a positive to a negative impact on power output.\n4. The long-term causal influence of relative_humidity on active_power is weaker compared to its short-term influence. It becomes a strong predictor when the overall trend of active_power is increasing, suggesting that high relative_humidity may lead to lower power output, while low relative_humidity may lead to higher power output.\n5. The long-term trend of relative_humidity itself is decreasing over months, repeating reliably at monthly cycles.\n6. The seasonal pattern of relative_humidity aligns with the seasonal pattern of active_power, with both showing significant weekly and monthly cycles. Active_power tends to follow the same seasonal patterns as relative_humidity, influenced by similar meteorological factors."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "1. The causal influence of wind_speed on active_power over long horizons is moderate. As wind speed increases, active power generally increases, but the relationship is not linear due to nonlinear regimes or threshold effects.\n2. An increase in wind_speed typically increases active_power over the long term. However, this relationship is not linear; there are nonlinear regimes or threshold effects where the increase in active_power slows down as wind speed continues to rise.\n3. There are likely threshold values of wind_speed beyond which its long-term effect on active_power changes dramatically, indicating nonlinear regimes or threshold effects.\n4. The long-term causal influence of wind_speed on active_power is weaker than its short-term influence. It becomes a strong predictor when the overall trend of wind_speed is increasing, and it is a weak predictor during periods of decreasing wind_speed.\n5. The long-term trend of wind_speed itself is increasing, repeating reliably at monthly cycles.\n6. The seasonal pattern of wind_speed aligns with the seasonal pattern of active_power, with both showing strong periodicity at the monthly scale."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "1. The causal influence of wind_direction on active_power over long horizons is moderate. It influences wake effects and effective power capture, but the relationship is not strong due to the complex interactions with other meteorological factors and the inherent variability in power output.\n2. An increase in wind_direction typically increases active_power over the long term, though the relationship is not linear. There are nonlinear regimes where the power output peaks before declining again, likely due to the onset and dissipation of turbulence.\n3. There are threshold values of wind_direction beyond which its long-term effect on active_power changes dramatically, such as when wind_direction shifts from optimal to less favorable conditions, affecting power capture efficiency.\n4. The long-term causal influence of wind_direction on active_power is weaker compared to short-term influence. It becomes a strong predictor when wind_direction remains within optimal ranges, indicating favorable conditions for maximum power output.\n5. The long-term trend of wind_direction itself is increasing, with a strong seasonal pattern that aligns with the seasonal variations in active_power, driven by the cyclical nature of wind patterns.\n6. The seasonal pattern of wind_direction aligns with the seasonal pattern of active_power, with optimal conditions for power generation occurring during specific seasons, thereby driving the seasonal variations in active_power."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "Theoretical_power has a moderate causal influence on active_power over long horizons. Physically, increased wind speeds lead to higher theoretical power output, which can then affect actual power generation through operational constraints and efficiency limits. An increase in theoretical_power typically leads to a proportional increase in active_power, though the relationship may not be perfectly linear due to operational limits and intermittency. There are likely threshold values where theoretical_power's impact on active_power shifts significantly, possibly related to turbine capacity limits and grid stability. The long-term causal influence of theoretical_power on active_power is generally stronger than short-term, becoming a strong predictor when theoretical_power remains relatively high, indicating consistent favorable wind conditions. Theoretical_power itself shows a moderate trend, neither increasing nor decreasing over months, with a seasonal pattern that aligns with active_power, driven by similar wind patterns but with some variability."
+    }
+  ]
+}

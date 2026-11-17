@@ -1,0 +1,87 @@
+{
+  "dataset": "SDWPF (Short-term Deterministic Wind Power Forecasting) dataset containing hourly meteorological observations and wind turbine power output. This dataset is widely used for wind power forecasting research, capturing the complex relationship between weather variables and actual power generation.",
+  "variant": "pnamedesc",
+  "variables": [
+    "active_power",
+    "temperature",
+    "surface_pressure",
+    "relative_humidity",
+    "wind_speed",
+    "wind_direction",
+    "theoretical_power"
+  ],
+  "short": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "active_power: Actual active power output (Patv) of the wind turbine in kW. This is the primary target variable to be forecasted."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "temperature: Temperature at 2 meters above ground (T2m) in Kelvin. Affects air density and turbine efficiency."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "surface_pressure: Surface pressure (Sp) in Pa. Influences air density and power generation."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "relative_humidity: Relative humidity (RelH) in percentage. Affects air density and turbine performance."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "wind_speed: Wind speed (Wspd_w) at hub height. The most critical feature for wind power generation."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "wind_direction: Wind direction (Wdir_w) in degrees. Influences wake effects and effective power capture."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "theoretical_power: Theoretical power (Tp) calculated from wind speed. Serves as a strong baseline and important exogenous feature."
+    }
+  ],
+  "long": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "active_power: Actual active power output (Patv) of the wind turbine in kW. This is the primary target variable to be forecasted."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "temperature: Temperature at 2 meters above ground (T2m) in Kelvin. Affects air density and turbine efficiency."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "surface_pressure: Surface pressure (Sp) in Pa. Influences air density and power generation."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "relative_humidity: Relative humidity (RelH) in percentage. Affects air density and turbine performance."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "wind_speed: Wind speed (Wspd_w) at hub height. The most critical feature for wind power generation."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "wind_direction: Wind direction (Wdir_w) in degrees. Influences wake effects and effective power capture."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "theoretical_power: Theoretical power (Tp) calculated from wind speed. Serves as a strong baseline and important exogenous feature."
+    }
+  ]
+}

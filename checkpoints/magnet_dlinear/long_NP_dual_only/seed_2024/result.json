@@ -1,0 +1,107 @@
+{
+ "dataset": "NP",
+ "term": "long",
+ "side": "dual_only",
+ "seed": 2024,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 25,
+  "magnet_d_model": 32,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.23056931793689728,
+ "stopped_at_epoch": 18,
+ "test_metrics": {
+  "mae": 0.5856074094772339,
+  "mse": 0.717629075050354
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.14687806367874146,
+ "final_ratio": 0.35850778222084045,
+ "n_params_used": 644829,
+ "final_gate": 0.14687806367874146,
+ "group_norms_lag_x_var": [
+  [
+   0.7056241035461426,
+   0.058967310935258865,
+   0.0038524544797837734
+  ],
+  [
+   0.031219232827425003,
+   0.0018662511138245463,
+   0.002198843052610755
+  ],
+  [
+   0.48874107003211975,
+   0.04453844949603081,
+   0.019595710560679436
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.4744383990764618,
+  0.07947985827922821
+ ],
+ "elapsed_s": 1279,
+ "timing": {
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "train_epoch_s": [
+   92.113,
+   70.532,
+   77.527,
+   80.433,
+   79.635,
+   76.27,
+   67.178,
+   69.742,
+   68.491,
+   68.769,
+   66.107,
+   66.793,
+   65.315,
+   56.672,
+   47.075,
+   38.586,
+   38.156,
+   35.953
+  ],
+  "val_epoch_s": [
+   7.521,
+   7.002,
+   6.816,
+   6.529,
+   7.15,
+   6.742,
+   5.671,
+   6.069,
+   6.593,
+   5.429,
+   5.123,
+   5.881,
+   5.039,
+   3.935,
+   3.4,
+   3.11,
+   2.84,
+   3.034
+  ],
+  "mean_train_epoch_s": 64.74152176909976,
+  "epochs_run": 18,
+  "best_epoch": 3,
+  "train_loop_s": 1263.2312030792236,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 48.875,
+  "n_params_total": 669124,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 30.2177734375
+ }
+}

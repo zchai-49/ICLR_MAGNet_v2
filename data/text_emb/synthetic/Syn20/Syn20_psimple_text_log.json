@@ -1,0 +1,240 @@
+{
+  "dataset": "synthetic",
+  "variables": [
+    "OT",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13",
+    "X14",
+    "X15",
+    "X16",
+    "X17",
+    "X18",
+    "X19",
+    "X20"
+  ],
+  "short": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "The time series OT (target) is a measure of the overall performance of a time series forecasting model, typically calculated as the mean absolute percentage error (MAPE) of the model's predictions. It provides a single value that summarizes the model's accuracy across the entire time series. A lower OT value indicates better performance."
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "The time series X1, also known as the \"exogenous\" series, represents external factors that influence the overall trend of the economy, such as changes in government policies, technological advancements, or global events. This series is used to account for the effects of these external factors on the overall trend, allowing for a more accurate estimation of the underlying trend (OT) of the economy. By controlling for X1, researchers can isolate the impact of internal factors, such as monetary policy and fiscal policy, on the economy."
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "The time series X2, also known as the exogenous variable, is a series of values that are not influenced by the internal dynamics of the system, but rather by external factors. In the context of the Lorenz attractor (OT), X2 represents the external forcing that drives the system's behavior, such as temperature or wind patterns. This exogenous input can either stabilize or destabilize the system's dynamics, depending on its magnitude and frequency."
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "The time series X3 (exogenous) is a measure of the overall level of economic activity, excluding the effects of monetary policy and interest rates. It is often used as a proxy for the overall economy, and its relationship to the Output Target (OT) is that it is used to estimate the level of output that the economy should strive to achieve, with the OT serving as a target for the central bank to achieve through monetary policy."
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "The time series X4 (exogenous) is a series of values that are not influenced by the underlying process being modeled, such as external factors like weather or economic indicators. In the context of the Ornstein-Uhlenbeck (OT) model, X4 is used as an exogenous variable to account for external influences that may affect the underlying process, allowing the model to capture the impact of these external factors on the time series."
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "The time series X5, also known as the X-5 index, is a measure of the overall level of economic activity in the United States, calculated as the average of the five leading indicators (leading economic indicators) used by the National Bureau of Economic Research (NBER) to predict business cycles. This index is often used as a proxy for the overall state of the economy, and its values are typically compared to the overall trend of the economy, as measured by the Output Trend (OT)."
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "The time series X6, also known as the \"exogenous\" or \"external\" variable, is a measure of external factors that influence the economy, such as government policies, technological advancements, or global events. This series is used to account for the impact of these external factors on the economy, allowing for a more accurate representation of the economy's internal dynamics. By including X6 in the analysis, researchers can isolate the effects of internal variables, such as output and employment, and better understand the relationships between these variables."
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "The time series X7, also known as the \"exogenous\" time series, is a series of values that are not influenced by the underlying process being modeled, such as seasonality or trends. In the context of Outlier Detection (OT), X7 is often used as a benchmark to evaluate the performance of OT methods, as it is assumed to be free from any patterns or anomalies that might be detected by the models. This allows for a more accurate assessment of the robustness and effectiveness of OT methods."
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "The time series X8 (exogenous) is a measure of the external or exogenous factors that influence the overall trend of a time series, such as population growth, technological advancements, or global events. It is often used to account for the impact of external factors on the time series, allowing for a more accurate representation of the underlying trend. In the context of the Oscillations Theory (OT), X8 is used to capture the external influences that can disrupt the natural oscillations of a system, leading to deviations from the expected trend."
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "The time series X9 is a monthly index of the U.S. stock market, which is considered an exogenous variable because it is driven by external factors such as investor sentiment, economic conditions, and global events, rather than being directly influenced by the operations of the firm. This time series is often used in operations research (OR) and optimization theory (OT) to model and analyze the behavior of financial markets."
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "The time series X10, also known as the X-10 random walk, is a stochastic process that represents a random walk with a constant step size. It is often used as a benchmark for testing the efficiency of an arbitrage mechanism, such as an optimal trading (OT) strategy. The X10 series is characterized by its random and unpredictable movements, making it a suitable model for testing the performance of OT strategies."
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "The time series X11, also known as the X-11 method, is a statistical technique used to identify and remove non-stationary trends in a time series, which can be caused by external factors or exogenous variables. This method is particularly useful in the context of Outlier Detection (OT) as it helps to isolate and remove the effects of these external factors, allowing for a more accurate analysis of the underlying time series patterns. By doing so, X11 enables OT to focus on the intrinsic patterns and anomalies within the data."
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "The X12 (exogenous) time series model is a type of seasonal decomposition that accounts for external factors or exogenous variables that affect the time series. It is related to the Outlier Test (OT) in that it can help identify outliers in the time series data that may be caused by these external factors, allowing for more accurate decomposition and analysis."
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "The X13 (exogenous) time series is a statistical model that accounts for external factors or exogenous variables that influence the time series, such as seasonality, trends, and shocks. It is often used in econometrics to analyze and forecast time series data that are subject to external influences. In the context of the Ornstein-Uhlenbeck (OT) model, the X13 model is used to capture the effects of exogenous variables on the time series, allowing for a more accurate representation of the underlying dynamics."
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "The time series X14 (exogenous) is a type of autoregressive (AR) model that accounts for external shocks or exogenous variables that affect the series. In the context of Outlier Detection (OT), the X14 model is used to identify outliers by modeling the relationship between the series and the exogenous variable, allowing for the detection of anomalies that are not solely due to internal patterns in the data."
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "The X15 time series is a measure of the total amount of money spent on all goods and services in the United States, excluding government purchases and net exports. It is an exogenous variable, meaning it is not directly influenced by the economy itself, but rather by external factors such as population growth, technological advancements, and changes in consumer behavior. The X15 series is often used to test for the presence of exogenous shocks in the economy, and its relationship to Output Targeting (OT) is that it can be used to estimate the required level of aggregate demand to achieve the desired output level, as it represents the total demand for goods and services."
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "X16 is a time series that represents the exogenous component of the total output (OT) in the US economy, capturing the impact of external factors such as government spending, investment, and net exports. It is calculated as the difference between total output and the endogenous component of OT, which includes consumption, investment, and government spending. X16 is often used as a proxy for the external shock component of the economy."
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "The time series X17 is an exogenous variable that represents the number of hours spent watching television per day. It is an external factor that affects the outcome variable, and its inclusion in a regression model can help control for the impact of television viewing on other variables. In the context of the Overlapping Generations (OT) model, X17 is used to capture the effect of television viewing on the consumption and savings decisions of the younger generation."
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "X18 is a time series that represents the exogenous component of the overall time series, capturing the external factors that influence the system's behavior. It is often used to represent the impact of external shocks or trends on the system, and is related to the overall time series through the equation X = Xe + Xt, where Xe is the exogenous component and Xt is the endogenous component."
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "The time series X19 is an exogenous variable that represents the number of deaths from all causes in the United States, excluding influenza and pneumonia. This series is used to test for the presence of an autoregressive (AR) component in the time series, which is a key component of the Ornstein-Uhlenbeck (OU) model. The X19 series is used to estimate the autoregressive parameter of the OU model, which is a measure of the persistence of the time series."
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "The time series X20 is an exogenous variable that represents the total amount of money spent on advertising in a given year. It is an external factor that influences the overall demand for a product or service, and its value is not directly related to the sales or revenue of the product. In the context of Operations Theory (OT), X20 is often used as a parameter to estimate the impact of advertising on sales, and it is typically assumed to be a constant or a trend over time."
+    }
+  ],
+  "long": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "The time series OT (target) is a measure of the overall performance of a time series forecasting model, typically calculated as the mean absolute percentage error (MAPE) of the model's predictions. It provides a single value that summarizes the model's accuracy across the entire time series. A lower OT value indicates better performance."
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "The time series X1, also known as the \"exogenous\" series, represents external factors that influence the overall trend of the economy, such as changes in government policies, technological advancements, or global events. This series is used to account for the effects of these external factors on the overall trend, allowing for a more accurate estimation of the underlying trend (OT) of the economy. By controlling for X1, researchers can isolate the impact of internal factors, such as monetary policy and fiscal policy, on the economy."
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "The time series X2, also known as the exogenous variable, is a series of values that are not influenced by the internal dynamics of the system, but rather by external factors. In the context of the Lorenz attractor (OT), X2 represents the external forcing that drives the system's behavior, such as temperature or wind patterns. This exogenous input can either stabilize or destabilize the system's dynamics, depending on its magnitude and frequency."
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "The time series X3 (exogenous) is a measure of the overall level of economic activity, excluding the effects of monetary policy and interest rates. It is often used as a proxy for the overall economy, and its relationship to the Output Target (OT) is that it is used to estimate the level of output that the economy should strive to achieve, with the OT serving as a target for the central bank to achieve through monetary policy."
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "The time series X4 (exogenous) is a series of values that are not influenced by the underlying process being modeled, such as external factors like weather or economic indicators. In the context of the Ornstein-Uhlenbeck (OT) model, X4 is used as an exogenous variable to account for external influences that may affect the underlying process, allowing the model to capture the impact of these external factors on the time series."
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "The time series X5, also known as the X-5 index, is a measure of the overall level of economic activity in the United States, calculated as the average of the five leading indicators (leading economic indicators) used by the National Bureau of Economic Research (NBER) to predict business cycles. This index is often used as a proxy for the overall state of the economy, and its values are typically compared to the overall trend of the economy, as measured by the Output Trend (OT)."
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "The time series X6, also known as the \"exogenous\" or \"external\" variable, is a measure of external factors that influence the economy, such as government policies, technological advancements, or global events. This series is used to account for the impact of these external factors on the economy, allowing for a more accurate representation of the economy's internal dynamics. By including X6 in the analysis, researchers can isolate the effects of internal variables, such as output and employment, and better understand the relationships between these variables."
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "The time series X7, also known as the \"exogenous\" time series, is a series of values that are not influenced by the underlying process being modeled, such as seasonality or trends. In the context of Outlier Detection (OT), X7 is often used as a benchmark to evaluate the performance of OT methods, as it is assumed to be free from any patterns or anomalies that might be detected by the models. This allows for a more accurate assessment of the robustness and effectiveness of OT methods."
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "The time series X8 (exogenous) is a measure of the external or exogenous factors that influence the overall trend of a time series, such as population growth, technological advancements, or global events. It is often used to account for the impact of external factors on the time series, allowing for a more accurate representation of the underlying trend. In the context of the Oscillations Theory (OT), X8 is used to capture the external influences that can disrupt the natural oscillations of a system, leading to deviations from the expected trend."
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "The time series X9 is a monthly index of the U.S. stock market, which is considered an exogenous variable because it is driven by external factors such as investor sentiment, economic conditions, and global events, rather than being directly influenced by the operations of the firm. This time series is often used in operations research (OR) and optimization theory (OT) to model and analyze the behavior of financial markets."
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "The time series X10, also known as the X-10 random walk, is a stochastic process that represents a random walk with a constant step size. It is often used as a benchmark for testing the efficiency of an arbitrage mechanism, such as an optimal trading (OT) strategy. The X10 series is characterized by its random and unpredictable movements, making it a suitable model for testing the performance of OT strategies."
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "The time series X11, also known as the X-11 method, is a statistical technique used to identify and remove non-stationary trends in a time series, which can be caused by external factors or exogenous variables. This method is particularly useful in the context of Outlier Detection (OT) as it helps to isolate and remove the effects of these external factors, allowing for a more accurate analysis of the underlying time series patterns. By doing so, X11 enables OT to focus on the intrinsic patterns and anomalies within the data."
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "The X12 (exogenous) time series model is a type of seasonal decomposition that accounts for external factors or exogenous variables that affect the time series. It is related to the Outlier Test (OT) in that it can help identify outliers in the time series data that may be caused by these external factors, allowing for more accurate decomposition and analysis."
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "The X13 (exogenous) time series is a statistical model that accounts for external factors or exogenous variables that influence the time series, such as seasonality, trends, and shocks. It is often used in econometrics to analyze and forecast time series data that are subject to external influences. In the context of the Ornstein-Uhlenbeck (OT) model, the X13 model is used to capture the effects of exogenous variables on the time series, allowing for a more accurate representation of the underlying dynamics."
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "The time series X14 (exogenous) is a type of autoregressive (AR) model that accounts for external shocks or exogenous variables that affect the series. In the context of Outlier Detection (OT), the X14 model is used to identify outliers by modeling the relationship between the series and the exogenous variable, allowing for the detection of anomalies that are not solely due to internal patterns in the data."
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "The X15 time series is a measure of the total amount of money spent on all goods and services in the United States, excluding government purchases and net exports. It is an exogenous variable, meaning it is not directly influenced by the economy itself, but rather by external factors such as population growth, technological advancements, and changes in consumer behavior. The X15 series is often used to test for the presence of exogenous shocks in the economy, and its relationship to Output Targeting (OT) is that it can be used to estimate the required level of aggregate demand to achieve the desired output level, as it represents the total demand for goods and services."
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "X16 is a time series that represents the exogenous component of the total output (OT) in the US economy, capturing the impact of external factors such as government spending, investment, and net exports. It is calculated as the difference between total output and the endogenous component of OT, which includes consumption, investment, and government spending. X16 is often used as a proxy for the external shock component of the economy."
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "The time series X17 is an exogenous variable that represents the number of hours spent watching television per day. It is an external factor that affects the outcome variable, and its inclusion in a regression model can help control for the impact of television viewing on other variables. In the context of the Overlapping Generations (OT) model, X17 is used to capture the effect of television viewing on the consumption and savings decisions of the younger generation."
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "X18 is a time series that represents the exogenous component of the overall time series, capturing the external factors that influence the system's behavior. It is often used to represent the impact of external shocks or trends on the system, and is related to the overall time series through the equation X = Xe + Xt, where Xe is the exogenous component and Xt is the endogenous component."
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "The time series X19 is an exogenous variable that represents the number of deaths from all causes in the United States, excluding influenza and pneumonia. This series is used to test for the presence of an autoregressive (AR) component in the time series, which is a key component of the Ornstein-Uhlenbeck (OU) model. The X19 series is used to estimate the autoregressive parameter of the OU model, which is a measure of the persistence of the time series."
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "The time series X20 is an exogenous variable that represents the total amount of money spent on advertising in a given year. It is an external factor that influences the overall demand for a product or service, and its value is not directly related to the sales or revenue of the product. In the context of Operations Theory (OT), X20 is often used as a parameter to estimate the impact of advertising on sales, and it is typically assumed to be a constant or a trend over time."
+    }
+  ]
+}

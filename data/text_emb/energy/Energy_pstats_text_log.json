@@ -1,0 +1,76 @@
+{
+  "dataset": "Chilean national electricity grid dataset with hourly power generation data spanning multiple years, capturing the interplay between thermoelectric generation and five renewable and storage energy sources (battery, geothermal, hydroelectric, solar, and wind) in Chile's Sistema El\u00e9ctrico Nacional.",
+  "variant": "pstats",
+  "variables": [
+    "thermoelectric",
+    "battery",
+    "geothermal",
+    "hydroelectric",
+    "solar",
+    "wind"
+  ],
+  "short": [
+    {
+      "variable": "thermoelectric",
+      "type": "endo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 3194.1925, Std: 1521.7362\n- Range: [0.0000, 7616.5334]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9520185452112527\n- acf_lag24 (daily cycle): 0.9292277337280084\n- Coefficient of variation (relative volatility): 0.4764"
+    },
+    {
+      "variable": "battery",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 65.8170, Std: 131.9849\n- Range: [0.0000, 845.9878]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8419627215412803\n- acf_lag24 (daily cycle): 0.892229892885262\n- Coefficient of variation (relative volatility): 2.0053"
+    },
+    {
+      "variable": "geothermal",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 34.4223, Std: 11.9136\n- Range: [0.0000, 67.2400]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9929613672503953\n- acf_lag24 (daily cycle): 0.9508343003509308\n- Coefficient of variation (relative volatility): 0.3461"
+    },
+    {
+      "variable": "hydroelectric",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 3076.8546, Std: 975.9199\n- Range: [0.0000, 5551.1856]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9449922477274301\n- acf_lag24 (daily cycle): 0.909444869443746\n- Coefficient of variation (relative volatility): 0.3172"
+    },
+    {
+      "variable": "solar",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 2159.8908, Std: 2420.6856\n- Range: [0.0000, 7547.0709]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9341953075921612\n- acf_lag24 (daily cycle): 0.9806151486572915\n- Coefficient of variation (relative volatility): 1.1207"
+    },
+    {
+      "variable": "wind",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 1267.9897, Std: 614.0857\n- Range: [0.0000, 3753.5005]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9392705886892234\n- acf_lag24 (daily cycle): 0.5493044665707373\n- Coefficient of variation (relative volatility): 0.4843"
+    }
+  ],
+  "long": [
+    {
+      "variable": "thermoelectric",
+      "type": "endo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 3194.1925, Std: 1521.7362\n- Overall trend: decreasing (slope=-0.220728 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.147\n- acf_lag168 (weekly cycle): 0.8892648409091016\n- acf_lag720 (monthly cycle): 0.7498376293849965\n- Seasonality strength (period-to-period variation): strong (0.612)"
+    },
+    {
+      "variable": "battery",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 65.8170, Std: 131.9849\n- Overall trend: increasing (slope=0.018435 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.136\n- acf_lag168 (weekly cycle): 0.8767753363250208\n- acf_lag720 (monthly cycle): 0.8047450695689888\n- Seasonality strength (period-to-period variation): strong (0.387)"
+    },
+    {
+      "variable": "geothermal",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 34.4223, Std: 11.9136\n- Overall trend: decreasing (slope=-0.004240 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.883\n- acf_lag168 (weekly cycle): 0.9185416763960125\n- acf_lag720 (monthly cycle): 0.8951073818853553\n- Seasonality strength (period-to-period variation): strong (0.960)"
+    },
+    {
+      "variable": "hydroelectric",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 3076.8546, Std: 975.9199\n- Overall trend: increasing (slope=0.127553 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.119\n- acf_lag168 (weekly cycle): 0.877688784497468\n- acf_lag720 (monthly cycle): 0.6672990727154958\n- Seasonality strength (period-to-period variation): strong (0.652)"
+    },
+    {
+      "variable": "solar",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 2159.8908, Std: 2420.6856\n- Overall trend: increasing (slope=0.023341 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.9768088997911651\n- acf_lag720 (monthly cycle): 0.9493015742643421\n- Seasonality strength (period-to-period variation): moderate (0.159)"
+    },
+    {
+      "variable": "wind",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 1267.9897, Std: 614.0857\n- Overall trend: increasing (slope=0.028093 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.015\n- acf_lag168 (weekly cycle): 0.3412018734271925\n- acf_lag720 (monthly cycle): 0.24770793218004936\n- Seasonality strength (period-to-period variation): strong (0.382)"
+    }
+  ]
+}

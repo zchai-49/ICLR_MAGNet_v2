@@ -1,0 +1,240 @@
+{
+  "dataset": "synthetic",
+  "variables": [
+    "OT",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13",
+    "X14",
+    "X15",
+    "X16",
+    "X17",
+    "X18",
+    "X19",
+    "X20"
+  ],
+  "short": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "OT: target"
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "X1: exogenous"
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "X2: exogenous"
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "X3: exogenous"
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "X4: exogenous"
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "X5: exogenous"
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "X6: exogenous"
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "X7: exogenous"
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "X8: exogenous"
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "X9: exogenous"
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "X10: exogenous"
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "X11: exogenous"
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "X12: exogenous"
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "X13: exogenous"
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "X14: exogenous"
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "X15: exogenous"
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "X16: exogenous"
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "X17: exogenous"
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "X18: exogenous"
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "X19: exogenous"
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "X20: exogenous"
+    }
+  ],
+  "long": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "OT: target"
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "X1: exogenous"
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "X2: exogenous"
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "X3: exogenous"
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "X4: exogenous"
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "X5: exogenous"
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "X6: exogenous"
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "X7: exogenous"
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "X8: exogenous"
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "X9: exogenous"
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "X10: exogenous"
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "X11: exogenous"
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "X12: exogenous"
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "X13: exogenous"
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "X14: exogenous"
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "X15: exogenous"
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "X16: exogenous"
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "X17: exogenous"
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "X18: exogenous"
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "X19: exogenous"
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "X20: exogenous"
+    }
+  ]
+}

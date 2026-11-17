@@ -1,0 +1,117 @@
+{
+ "dataset": "FR",
+ "term": "long",
+ "side": "dual_only",
+ "seed": 0,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_LAG0_NUISANCE": "1",
+  "MAGNET_SIG_PREWHITEN": "1"
+ },
+ "hparams": {
+  "moving_avg": 13,
+  "magnet_d_model": 32,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.2555384933948517,
+ "stopped_at_epoch": 23,
+ "test_metrics": {
+  "mae": 0.3598639965057373,
+  "mse": 0.6301016211509705
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.06901103258132935,
+ "final_ratio": 0.2733539640903473,
+ "n_params_used": 266593,
+ "final_gate": 0.06901103258132935,
+ "group_norms_lag_x_var": [
+  [
+   1.0478661060333252,
+   0.09090606123209,
+   0.05989484861493111
+  ],
+  [
+   1.7515230178833008,
+   0.1344236433506012,
+   0.11924835294485092
+  ],
+  [
+   0.5774310231208801,
+   0.019355766475200653,
+   0.013552936725318432
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.4370128810405731,
+  0.39591777324676514
+ ],
+ "elapsed_s": 2646,
+ "timing": {
+  "gpu": "NVIDIA RTX A6000",
+  "train_epoch_s": [
+   118.917,
+   87.799,
+   113.91,
+   115.129,
+   114.927,
+   116.22,
+   116.98,
+   115.482,
+   117.707,
+   120.42,
+   118.601,
+   116.513,
+   116.786,
+   116.99,
+   116.705,
+   117.702,
+   87.769,
+   80.426,
+   80.887,
+   80.416,
+   82.621,
+   81.468,
+   82.586
+  ],
+  "val_epoch_s": [
+   9.578,
+   5.939,
+   10.431,
+   10.497,
+   11.185,
+   10.694,
+   10.212,
+   10.728,
+   11.126,
+   10.809,
+   11.09,
+   10.909,
+   10.706,
+   10.801,
+   11.179,
+   11.324,
+   6.704,
+   6.779,
+   7.1,
+   6.881,
+   6.517,
+   6.711,
+   6.607
+  ],
+  "mean_train_epoch_s": 105.08538149750751,
+  "epochs_run": 23,
+  "best_epoch": 8,
+  "train_loop_s": 2631.471212387085,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 37.0146484375,
+  "n_params_total": 290888,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 9.41943359375
+ }
+}

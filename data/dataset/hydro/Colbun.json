@@ -1,0 +1,26 @@
+{
+    "name": "Colbun",
+    "context": "Colbún reservoir dataset from Chile, containing daily measurements of water level, tributary inflow, and precipitation. Colbún is one of the major hydroelectric reservoirs in Chile's Sistema Eléctrico Nacional.",
+    "endo": [
+        {
+            "name": "water_level",
+            "index": 0,
+            "type": "endo",
+            "description": "Daily average water level in the Colbún reservoir. This is the main target variable for forecasting reservoir behavior and optimizing hydroelectric dispatch."
+        }
+    ],
+    "exo": [
+        {
+            "name": "tributary_inflow",
+            "index": 1,
+            "type": "exo",
+            "description": "Daily average tributary inflow (Afluente) in m³/s into the Colbún reservoir. This is the primary exogenous input driving water level dynamics."
+        },
+        {
+            "name": "precipitation",
+            "index": 2,
+            "type": "exo",
+            "description": "Daily precipitation in the Colbún reservoir catchment area. This exogenous variable helps predict future inflow and improves water level forecasting accuracy."
+        }
+    ]
+}

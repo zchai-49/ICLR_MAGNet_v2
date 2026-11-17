@@ -1,0 +1,371 @@
+{
+ "sides": {
+  "short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "long": [
+   "dual_only",
+   "crossattn_mq"
+  ]
+ },
+ "mech_source": "valfull/state.json (representative-dataset screen)",
+ "hp_top3": {
+  "Syn5/long|dual_only": [
+   4,
+   2,
+   0
+  ],
+  "Syn5/long|crossattn_mq": [
+   4,
+   2,
+   0
+  ],
+  "Syn20/long|dual_only": [
+   2,
+   0,
+   12
+  ],
+  "Syn20/long|crossattn_mq": [
+   2,
+   4,
+   0
+  ],
+  "Syn50/long|dual_only": [
+   8,
+   4,
+   6
+  ],
+  "Syn50/long|crossattn_mq": [
+   8,
+   0,
+   4
+  ],
+  "Syn20weak/long|dual_only": [
+   4,
+   12,
+   0
+  ],
+  "Syn20weak/long|crossattn_mq": [
+   4,
+   2,
+   12
+  ],
+  "Syn20null/long|dual_only": [
+   4,
+   2,
+   0
+  ],
+  "Syn20null/long|crossattn_mq": [
+   0,
+   2,
+   4
+  ]
+ },
+ "hp": {
+  "Syn5/long|dual_only": 4,
+  "Syn5/long|crossattn_mq": 4,
+  "Syn20/long|dual_only": 2,
+  "Syn20/long|crossattn_mq": 4,
+  "Syn50/long|dual_only": 4,
+  "Syn50/long|crossattn_mq": 4,
+  "Syn20weak/long|dual_only": 4,
+  "Syn20weak/long|crossattn_mq": 4,
+  "Syn20null/long|dual_only": 4,
+  "Syn20null/long|crossattn_mq": 0
+ },
+ "fix_top3": {
+  "Syn5/long|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Syn5/long|crossattn_mq": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "deep_film",
+    "warmup"
+   ]
+  ],
+  "Syn20/long|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Syn20/long|crossattn_mq": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Syn50/long|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Syn50/long|crossattn_mq": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "deep_film",
+    "default"
+   ]
+  ],
+  "Syn20weak/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Syn20weak/long|crossattn_mq": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "deep_film",
+    "default"
+   ],
+   [
+    "deep_film",
+    "warmup"
+   ]
+  ],
+  "Syn20null/long|dual_only": [
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Syn20null/long|crossattn_mq": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "deep_film",
+    "default"
+   ]
+  ]
+ },
+ "chosen": {
+  "Syn5/long|dual_only": [
+   4,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "Syn5/long|crossattn_mq": [
+   4,
+   "mlp_backbone",
+   "default"
+  ],
+  "Syn20/long|dual_only": [
+   2,
+   "mlp_backbone",
+   "default"
+  ],
+  "Syn20/long|crossattn_mq": [
+   4,
+   "mlp_backbone",
+   "default"
+  ],
+  "Syn50/long|dual_only": [
+   4,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "Syn50/long|crossattn_mq": [
+   4,
+   "deep_film",
+   "default"
+  ],
+  "Syn20weak/long|dual_only": [
+   4,
+   "none",
+   "default"
+  ],
+  "Syn20weak/long|crossattn_mq": [
+   4,
+   "deep_film",
+   "default"
+  ],
+  "Syn20null/long|dual_only": [
+   4,
+   "none",
+   "default"
+  ],
+  "Syn20null/long|crossattn_mq": [
+   0,
+   "mlp_backbone",
+   "warmup"
+  ]
+ },
+ "chosen_scores": {
+  "Syn5/long|dual_only": {
+   "mlp_backbone/default": 1.0003,
+   "mlp_backbone/warmup": 1.0003,
+   "residual_head/default": 1.0067
+  },
+  "Syn5/long|crossattn_mq": {
+   "mlp_backbone/default": 0.9998,
+   "mlp_backbone/warmup": 1.001,
+   "deep_film/warmup": 1.0073
+  },
+  "Syn20/long|dual_only": {
+   "mlp_backbone/default": 1.0021,
+   "mlp_backbone/warmup": 1.0021,
+   "patch8/default": 1.0024
+  },
+  "Syn20/long|crossattn_mq": {
+   "mlp_backbone/default": 1.0003,
+   "mlp_backbone/warmup": 1.0005,
+   "patch8/warmup": 1.0007
+  },
+  "Syn50/long|dual_only": {
+   "mlp_backbone/default": 1.0008,
+   "mlp_backbone/warmup": 1.0008,
+   "patch8/default": 1.0011
+  },
+  "Syn50/long|crossattn_mq": {
+   "mlp_backbone/warmup": 1.0011,
+   "mlp_backbone/default": 1.0014,
+   "deep_film/default": 0.9986
+  },
+  "Syn20weak/long|dual_only": {
+   "none/default": 1.0006,
+   "none/warmup": 1.0006,
+   "residual_head/default": 1.0006
+  },
+  "Syn20weak/long|crossattn_mq": {
+   "residual_head/default": 1.0006,
+   "deep_film/default": 1.0004,
+   "deep_film/warmup": 1.0004
+  },
+  "Syn20null/long|dual_only": {
+   "none/warmup": 1.0001,
+   "none/default": 1.0001,
+   "patch8/default": 1.0005
+  },
+  "Syn20null/long|crossattn_mq": {
+   "mlp_backbone/default": 1.0009,
+   "mlp_backbone/warmup": 1.0007,
+   "deep_film/default": 1.0028
+  }
+ },
+ "deployed": {
+  "Syn5/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Syn20/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Syn50/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Syn20weak/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Syn20null/long": [
+   "crossattn_mq"
+  ]
+ },
+ "side_scores": {
+  "Syn5/long": {
+   "dual_only": 1.0012,
+   "crossattn_mq": 1.0002,
+   "dual_only+crossattn_mq": 0.9986
+  },
+  "Syn20/long": {
+   "dual_only": 0.9996,
+   "crossattn_mq": 1.0023,
+   "dual_only+crossattn_mq": 0.9981
+  },
+  "Syn50/long": {
+   "dual_only": 1.0008,
+   "crossattn_mq": 1.0024,
+   "dual_only+crossattn_mq": 0.9968
+  },
+  "Syn20weak/long": {
+   "dual_only": 1.0002,
+   "crossattn_mq": 1.0001,
+   "dual_only+crossattn_mq": 0.9996
+  },
+  "Syn20null/long": {
+   "dual_only": 1.0032,
+   "crossattn_mq": 0.9981,
+   "dual_only+crossattn_mq": 0.9987
+  }
+ }
+}

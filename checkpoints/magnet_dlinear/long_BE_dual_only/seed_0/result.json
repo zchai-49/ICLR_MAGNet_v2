@@ -1,0 +1,117 @@
+{
+ "dataset": "BE",
+ "term": "long",
+ "side": "dual_only",
+ "seed": 0,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 25,
+  "magnet_d_model": 64,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.43157368898391724,
+ "stopped_at_epoch": 23,
+ "test_metrics": {
+  "mae": 0.42666390538215637,
+  "mse": 0.6324681043624878
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.04174691438674927,
+ "final_ratio": 0.36973142623901367,
+ "n_params_used": 812417,
+ "final_gate": 0.04174691438674927,
+ "group_norms_lag_x_var": [
+  [
+   0.43067479133605957,
+   0.1288459450006485,
+   0.03692575544118881
+  ],
+  [
+   2.34121036529541,
+   0.11394026130437851,
+   0.11195278912782669
+  ],
+  [
+   0.30792471766471863,
+   0.007617382798343897,
+   0.007113696075975895
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.8835146427154541,
+  0.5167840719223022
+ ],
+ "elapsed_s": 1446,
+ "timing": {
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "train_epoch_s": [
+   59.307,
+   58.1,
+   59.138,
+   57.99,
+   60.651,
+   57.023,
+   61.211,
+   60.102,
+   60.082,
+   58.173,
+   56.134,
+   58.412,
+   54.231,
+   58.426,
+   58.049,
+   59.278,
+   59.184,
+   59.188,
+   57.501,
+   54.721,
+   56.596,
+   55.646,
+   56.549
+  ],
+  "val_epoch_s": [
+   4.368,
+   4.66,
+   4.497,
+   4.682,
+   4.813,
+   4.465,
+   4.57,
+   4.168,
+   4.482,
+   4.21,
+   4.767,
+   4.315,
+   4.065,
+   3.834,
+   4.487,
+   4.394,
+   4.562,
+   4.302,
+   3.621,
+   4.32,
+   4.465,
+   4.134,
+   4.596
+  ],
+  "mean_train_epoch_s": 58.07358265959698,
+  "epochs_run": 23,
+  "best_epoch": 8,
+  "train_loop_s": 1436.467677116394,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 57.75634765625,
+  "n_params_total": 852104,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 29.236328125
+ }
+}

@@ -1,0 +1,44 @@
+{
+    "name"    : "Energy",
+    "context" : "Chilean national electricity grid dataset with hourly power generation data spanning multiple years, capturing the interplay between thermoelectric generation and five renewable and storage energy sources (battery, geothermal, hydroelectric, solar, and wind) in Chile's Sistema Eléctrico Nacional.",
+    "endo": [
+        {
+            "name"        : "thermoelectric",
+            "index"       : 0,
+            "type"        : "endo",
+            "description" : "Hourly thermoelectric power generation in MW from fossil-fuel-based plants in Chile's national grid, representing the primary dispatchable generation source that compensates for variability and shortfalls across all renewable and storage inputs."
+        }
+    ],
+    "exo": [
+        {
+            "name"        : "battery",
+            "index"       : 1,
+            "type"        : "exo",
+            "description" : "Hourly power output in MW from grid-scale battery storage systems, reflecting the dispatch of previously stored energy to smooth renewable intermittency and directly reduce the residual load that thermoelectric generation must cover."
+        },
+        {
+            "name"        : "geothermal",
+            "index"       : 2,
+            "type"        : "exo",
+            "description" : "Hourly geothermal power generation in MW, a stable and near-baseload renewable source with very low output variability, providing a predictable contribution that reduces the average thermoelectric dispatch requirement throughout the day."
+        },
+        {
+            "name"        : "hydroelectric",
+            "index"       : 3,
+            "type"        : "exo",
+            "description" : "Hourly hydroelectric power generation in MW, a major and partially dispatchable renewable source in Chile whose output varies seasonally with Andean snowmelt and precipitation cycles, exerting a strong influence on thermoelectric commitment across seasons."
+        },
+        {
+            "name"        : "solar",
+            "index"       : 4,
+            "type"        : "exo",
+            "description" : "Hourly solar photovoltaic power generation in MW, a highly variable intraday renewable source concentrated in daylight hours that creates a pronounced midday dip in thermoelectric generation followed by a steep ramp-up in the evening."
+        },
+        {
+            "name"        : "wind",
+            "index"       : 5,
+            "type"        : "exo",
+            "description" : "Hourly wind power generation in MW, a variable renewable source with stochastic fluctuations driven by meteorological conditions, whose output anti-correlates with solar on many days and contributes to offsetting thermoelectric generation particularly during nighttime and shoulder hours."
+        }
+    ]
+}

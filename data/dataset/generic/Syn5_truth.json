@@ -1,0 +1,23 @@
+{
+ "n_exo": 5,
+ "share": 0.5,
+ "beta": 0.28358929922714443,
+ "seed": 100,
+ "lags": {
+  "X1": 24,
+  "X2": 30,
+  "X3": 36
+ },
+ "roles": {
+  "X1": "parent",
+  "X2": "parent",
+  "X3": "parent",
+  "X4": "chain (X4 -> X1)",
+  "X5": "proxy of X1"
+ },
+ "direct_parents": [
+  "X1",
+  "X2",
+  "X3"
+ ]
+}

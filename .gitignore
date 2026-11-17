@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+runs/
+figures/
+*.log
+resume_*.pt
+.ipynb_checkpoints/

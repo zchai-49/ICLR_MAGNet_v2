@@ -1,0 +1,7753 @@
+{
+ "BE/short": {
+  "dataset_id": 5,
+  "deployed_sides": [
+   "dual_gated_scale"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Colbun/short": {
+  "dataset_id": 11,
+  "deployed_sides": [
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "DE/short": {
+  "dataset_id": 6,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Energy/short": {
+  "dataset_id": 10,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "NP/short": {
+  "dataset_id": 8,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfh1/short": {
+  "dataset_id": 13,
+  "deployed_sides": [
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 7,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 7,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfh2/short": {
+  "dataset_id": 14,
+  "deployed_sides": [
+   "dual_gated_scale"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "none",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfm1/short": {
+  "dataset_id": 15,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 7,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfm2/short": {
+  "dataset_id": 16,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "none",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "FR/short": {
+  "dataset_id": 7,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "PJM/short": {
+  "dataset_id": 9,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Rapel/short": {
+  "dataset_id": 12,
+  "deployed_sides": [
+   "dual_gated_scale"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 13,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "BE/long": {
+  "dataset_id": 5,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 8,
+     "fix": "none",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "DE/long": {
+  "dataset_id": 6,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 12,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "FR/long": {
+  "dataset_id": 7,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 7,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "NP/long": {
+  "dataset_id": 8,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "deep_film",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "PJM/long": {
+  "dataset_id": 9,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Energy/long": {
+  "dataset_id": 10,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "none",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Colbun/long": {
+  "dataset_id": 11,
+  "deployed_sides": [
+   "dual_only"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 8,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 8,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Rapel/long": {
+  "dataset_id": 12,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 7,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 51,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 12,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfh1/long": {
+  "dataset_id": 13,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 8,
+     "fix": "none",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfh2/long": {
+  "dataset_id": 14,
+  "deployed_sides": [
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfm1/long": {
+  "dataset_id": 15,
+  "deployed_sides": [
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "none",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Sdwpfm2/long": {
+  "dataset_id": 16,
+  "deployed_sides": [
+   "dual_only"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 6,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 25,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 8,
+     "fix": "none",
+     "regime": "default"
+    }
+   }
+  },
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn5/short": {
+  "dataset_id": 18,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "none",
+     "regime": "warmup"
+    }
+   }
+  },
+  "template": "structure copied from Energy/short; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20/short": {
+  "dataset_id": 19,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "residual_head",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from Energy/short; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn50/short": {
+  "dataset_id": 20,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "residual_head",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "template": "structure copied from Energy/short; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20weak/short": {
+  "dataset_id": 21,
+  "deployed_sides": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0005
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 1,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   }
+  },
+  "template": "structure copied from Energy/short; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20null/short": {
+  "dataset_id": 22,
+  "deployed_sides": [
+   "dual_only"
+  ],
+  "sides": {
+   "dual_gated_scale": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "warmup"
+    }
+   },
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "patch8",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from Energy/short; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn5/long": {
+  "dataset_id": 18,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from NP/long; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20/long": {
+  "dataset_id": 19,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 64,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 2,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from NP/long; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn50/long": {
+  "dataset_id": 20,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "deep_film",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from NP/long; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20weak/long": {
+  "dataset_id": 21,
+  "deployed_sides": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "none",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "deep_film",
+     "regime": "default"
+    }
+   }
+  },
+  "template": "structure copied from NP/long; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ },
+ "Syn20null/long": {
+  "dataset_id": 22,
+  "deployed_sides": [
+   "crossattn_mq"
+  ],
+  "sides": {
+   "dual_only": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 128,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 4,
+     "fix": "none",
+     "regime": "default"
+    }
+   },
+   "crossattn_mq": {
+    "hparams": {
+     "moving_avg": 13,
+     "magnet_d_model": 32,
+     "lr": 0.0001
+    },
+    "hparam_candidates": [
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 13,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 25,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 32,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 64,
+      "lr": 0.0005
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0001
+     },
+     {
+      "moving_avg": 51,
+      "magnet_d_model": 128,
+      "lr": 0.0005
+     }
+    ],
+    "patch_len": 12,
+    "ngc_hidden_dim": null,
+    "d_model": null,
+    "kwargs": {},
+    "training_regime": "plain_cosine",
+    "selected": {
+     "hp_rank": 0,
+     "fix": "mlp_backbone",
+     "regime": "warmup"
+    }
+   }
+  },
+  "template": "structure copied from NP/long; hparam grid identical for all cells",
+  "selection": "PREREG_valfull.md"
+ }
+}

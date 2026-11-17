@@ -1,0 +1,113 @@
+{
+ "dataset": "FR",
+ "term": "long",
+ "side": "dual_only",
+ "seed": 2024,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 13,
+  "magnet_d_model": 32,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.25272130966186523,
+ "stopped_at_epoch": 21,
+ "test_metrics": {
+  "mae": 0.3299783766269684,
+  "mse": 0.6057361364364624
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.06901103258132935,
+ "final_ratio": 0.2956906259059906,
+ "n_params_used": 266593,
+ "final_gate": 0.06901103258132935,
+ "group_norms_lag_x_var": [
+  [
+   1.058474063873291,
+   0.0873248428106308,
+   0.06563951075077057
+  ],
+  [
+   1.640351414680481,
+   0.13735133409500122,
+   0.1513456553220749
+  ],
+  [
+   0.575699508190155,
+   0.014610733836889267,
+   0.008326500654220581
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.447055846452713,
+  0.4630916118621826
+ ],
+ "elapsed_s": 1301,
+ "timing": {
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "train_epoch_s": [
+   57.465,
+   56.531,
+   57.16,
+   58.017,
+   57.007,
+   55.465,
+   57.468,
+   57.336,
+   59.579,
+   58.313,
+   57.529,
+   57.035,
+   58.23,
+   56.783,
+   57.445,
+   58.156,
+   56.529,
+   57.017,
+   56.907,
+   57.116,
+   57.179
+  ],
+  "val_epoch_s": [
+   4.563,
+   3.973,
+   3.774,
+   4.534,
+   3.591,
+   4.571,
+   4.336,
+   4.252,
+   4.081,
+   3.806,
+   4.553,
+   4.354,
+   3.99,
+   4.083,
+   4.356,
+   4.333,
+   4.303,
+   4.087,
+   4.353,
+   4.021,
+   4.291
+  ],
+  "mean_train_epoch_s": 57.346011320749916,
+  "epochs_run": 21,
+  "best_epoch": 6,
+  "train_loop_s": 1292.4719822406769,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 36.47265625,
+  "n_params_total": 290888,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 26.53564453125
+ }
+}

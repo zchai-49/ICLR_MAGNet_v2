@@ -1,0 +1,43 @@
+{
+  "dataset": "Nord Pool electricity market dataset with hourly electricity price and exogenous grid measurements spanning 6 years (2013-01-01 to 2018-12-24).",
+  "variant": "psimple",
+  "variables": [
+    "price",
+    "grid_load_forecast",
+    "wind_power_forecast"
+  ],
+  "short": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "The time series price represents the hourly electricity prices in the Nord Pool market, which is a regional electricity market covering Norway, Sweden, Denmark, Finland, and the Baltic region. The price is quoted in Euros per Megawatt-hour (MWh) and reflects the hourly demand for electricity in the region. It is a dynamic price that changes throughout the day based on supply and demand conditions."
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "The time series grid_load_forecast represents the forecasted total grid load in megawatts (MW), indicating anticipated electricity demand across the Nord Pool system. This data point is closely related to electricity prices, as it influences the supply and demand balance, thereby affecting wholesale electricity prices. As grid load increases, prices tend to rise to reflect the higher demand for electricity, while decreasing grid load leads to lower prices."
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "The time series wind_power_forecast represents forecasted wind power generation in megawatts (MW), capturing the expected renewable energy supply in the market. This data is often used to predict electricity demand and adjust energy prices accordingly, as increased wind power generation can lead to lower wholesale electricity prices. By analyzing wind power forecasts, energy market participants can make more informed decisions about pricing and hedging strategies."
+    }
+  ],
+  "long": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "The time series price represents the hourly electricity prices in the Nord Pool market, which is a regional electricity market covering Norway, Sweden, Denmark, Finland, and the Baltic region. The price is quoted in Euros per Megawatt-hour (MWh) and reflects the hourly demand for electricity in the region. It is a dynamic price that changes throughout the day based on supply and demand conditions."
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "The time series grid_load_forecast represents the forecasted total grid load in megawatts (MW), indicating anticipated electricity demand across the Nord Pool system. This data point is closely related to electricity prices, as it influences the supply and demand balance, thereby affecting wholesale electricity prices. As grid load increases, prices tend to rise to reflect the higher demand for electricity, while decreasing grid load leads to lower prices."
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "The time series wind_power_forecast represents forecasted wind power generation in megawatts (MW), capturing the expected renewable energy supply in the market. This data is often used to predict electricity demand and adjust energy prices accordingly, as increased wind power generation can lead to lower wholesale electricity prices. By analyzing wind power forecasts, energy market participants can make more informed decisions about pricing and hedging strategies."
+    }
+  ]
+}

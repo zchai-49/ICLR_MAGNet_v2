@@ -1,0 +1,43 @@
+{
+  "dataset": "Rapel reservoir dataset from Chile, containing daily measurements of water level, tributary inflow, and precipitation. This reservoir is a key hydroelectric asset in Chile's electricity system, where inflow and precipitation strongly influence water level dynamics.",
+  "variant": "pstats",
+  "variables": [
+    "water_level",
+    "tributary_inflow",
+    "precipitation"
+  ],
+  "short": [
+    {
+      "variable": "water_level",
+      "type": "endo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 102.7814, Std: 1.2886\n- Range: [100.4783, 107.6021]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9665874408720203\n- acf_lag7 (weekly cycle): 0.8924494290601406\n- Coefficient of variation (relative volatility): 0.0125"
+    },
+    {
+      "variable": "tributary_inflow",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 79.8657, Std: 108.5899\n- Range: [0.0000, 1751.1646]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8300787699328042\n- acf_lag7 (weekly cycle): 0.49637452914040175\n- Coefficient of variation (relative volatility): 1.3597"
+    },
+    {
+      "variable": "precipitation",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.9699, Std: 5.4117\n- Range: [0.0000, 105.2000]\n- Lag-1 autocorrelation (step-to-step persistence): 0.3408922272404245\n- acf_lag7 (weekly cycle): 0.06854959386638616\n- Coefficient of variation (relative volatility): 5.5797"
+    }
+  ],
+  "long": [
+    {
+      "variable": "water_level",
+      "type": "endo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 102.7814, Std: 1.2886\n- Overall trend: decreasing (slope=-0.000429 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.051\n- acf_lag7 (weekly cycle): 0.8924494290601406\n- acf_lag30 (monthly cycle): 0.6812955548285361\n- Seasonality strength (period-to-period variation): strong (0.930)"
+    },
+    {
+      "variable": "tributary_inflow",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 79.8657, Std: 108.5899\n- Overall trend: decreasing (slope=-0.038801 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.059\n- acf_lag7 (weekly cycle): 0.49637452914040175\n- acf_lag30 (monthly cycle): 0.319868196453633\n- Seasonality strength (period-to-period variation): strong (0.695)"
+    },
+    {
+      "variable": "precipitation",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.9699, Std: 5.4117\n- Overall trend: decreasing (slope=-0.000252 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag7 (weekly cycle): 0.06854959386638616\n- acf_lag30 (monthly cycle): 0.02233974116322409\n- Seasonality strength (period-to-period variation): strong (0.325)"
+    }
+  ]
+}

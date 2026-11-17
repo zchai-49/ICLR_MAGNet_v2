@@ -1,0 +1,16 @@
+# MAGNet (official code). Tested with Python 3.10, torch 2.11 (CUDA 13), numpy 2.2, pandas 2.3, scikit-learn 1.7,
+# scipy 1.15, einops 0.8, matplotlib 3.10.
+torch>=2.4
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.3   # cross-fit Granger gain (scripts/granger_gain_crossfit.py)
+scipy>=1.10
+einops>=0.6         # DAG backbone
+matplotlib>=3.7     # figures
+
+# Optional: only to REGENERATE text (embeddings for all 17 datasets ship in data/text_emb/).
+# models/text_generate*.py download meta-llama/Llama-3.2-3B-Instruct (gated, accept the license) and bert-base-uncased;
+# the text ablations also use other Hugging Face LLMs / encoders (models/text_generate_variants.py, text_encoder_variants.py).
+# transformers>=4.40
+# bitsandbytes>=0.43
+# accelerate>=0.30

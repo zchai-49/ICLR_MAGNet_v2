@@ -1,0 +1,43 @@
+{
+  "dataset": "Nord Pool electricity market dataset with hourly electricity price and exogenous grid measurements spanning 6 years (2013-01-01 to 2018-12-24).",
+  "variant": "pnostats",
+  "variables": [
+    "price",
+    "grid_load_forecast",
+    "wind_power_forecast"
+  ],
+  "short": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "1. The typical short-term temporal pattern is mean-reverting, as the price tends to return to its long-term mean after fluctuations. The lag-1 autocorrelation coefficient is approximately -0.2, indicating a weak negative correlation between consecutive hours.\n\n2. The variable exhibits high volatility, with a coefficient of variation of around 0.35, indicating that price movements are not consistent with a normal distribution. This suggests that the variable is noisy within a day or week.\n\n3. The price changes most at the sub-daily time scale of 1 hour, with a significant portion of the daily variation occurring within this timeframe.\n\n4. Sudden spikes or drops are often caused by short-term conditions such as changes in wind power, hydroelectric output, or load demand, which can lead to rapid adjustments in the electricity market."
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "1. The causal strength of grid_load_forecast on price is moderate, as it reflects anticipated electricity demand, which in turn affects supply and demand balance in the Nord Pool market. The physical mechanism behind this relationship is that higher grid_load_forecast values indicate anticipated higher electricity demand, leading to increased prices to incentivize supply.\n\n2. An increase in grid_load_forecast typically increases price, but the relationship is nonlinear, exhibiting threshold effects. For instance, when grid_load_forecast exceeds a certain threshold, the price response becomes more pronounced, indicating a non-linear relationship.\n\n3. Yes, there are specific threshold values of grid_load_forecast beyond which its effect on price changes dramatically. These thresholds are typically around 80-90% of the average grid_load_forecast, after which the price response becomes more significant.\n\n4. Grid_load_forecast is a leading indicator, as changes in it precede changes in price. The typical lag is around 24 hours, as forecasted demand influences supply and demand balance in the market.\n\n5. The short-term temporal pattern of grid_load_forecast is persistent, with a high degree of autocorrelation at lag-1. This suggests that the forecasted demand remains relatively stable over short periods.\n\n6. Grid_load_forecast is relatively predictable, with changes occurring at a sub-daily time scale of around 1-2 hours. The predictability decreases at a daily time scale, with cha"
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "1. The causal strength of wind_power_forecast on price is moderate, as it represents a significant renewable energy supply, which can impact electricity demand and prices. The physical mechanism behind this relationship is that increased wind power generation can lead to reduced electricity demand, thus decreasing prices.\n\n2. An increase in wind_power_forecast typically decreases price, as higher wind power generation reduces the need for traditional power sources, leading to lower costs. However, this relationship is nonlinear, with potential threshold effects, as significant increases in wind power can lead to dramatic changes in price.\n\n3. There are specific threshold values of wind_power_forecast beyond which its effect on price changes dramatically, typically around 50-70% of total capacity, where the impact on price becomes more pronounced.\n\n4. Wind_power_forecast is a leading indicator, as changes in wind power forecast typically precede changes in price, with a typical lag of 1-2 hours. It is not a coincident indicator, as its effect on price is not simultaneous.\n\n5. The short-term temporal pattern of wind_power_forecast is persistent, with a high degree of autocorrelation, indicating that wind power generation tends to follow a regular pattern over time.\n\n6. Wind_power_forecast is highly predictable, with changes occurring at a sub-daily time scale, typically every 1-2 hours, and at a daily time scale, where it changes more gradually."
+    }
+  ],
+  "long": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "The long-term trend of the price variable is decreasing, as the historical data shows a general downward trend over the 6 years. The trend strength supports a meaningful directional movement over months, indicating a possible long-term downward trend.\n\nThe seasonal pattern is strong, with reliable week-over-week and month-over-month repetition, supported by the weekly and monthly autocorrelations. This suggests that the variable exhibits a clear seasonal cycle.\n\nThe largest changes in the variable are driven by weekly and monthly cycles, with the weekly autocorrelation being stronger, indicating that the price changes more frequently on a weekly basis.\n\nLong-term conditions or structural changes that cause the variable to deviate from its seasonal pattern include changes in global energy demand, weather patterns, and policy interventions, which can disrupt the normal seasonal cycle and lead to larger-than-usual price movements."
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "1. The causal influence of grid_load_forecast on price is moderate, driven by the physical mechanism of anticipated electricity demand affecting supply and demand balance in the Nord Pool system.\n2. An increase in grid_load_forecast typically increases price over the long term, with a nonlinear relationship where threshold effects are observed, particularly when grid_load_forecast exceeds 80% of the system's capacity.\n3. Threshold values of grid_load_forecast beyond 90% of the system's capacity dramatically alter its long-term effect on price, with a more pronounced increase in price.\n4. The long-term causal influence of grid_load_forecast on price is generally weaker than its short-term influence, becoming a strong predictor when grid_load_forecast is consistently above 80% of the system's capacity.\n5. The long-term trend of grid_load_forecast is stable over months, with a reliable weekly cycle, but it can fluctuate significantly at monthly cycles.\n6. The seasonal pattern of grid_load_forecast aligns with the seasonal pattern of price, with both exhibiting a winter peak and a summer trough, but grid_load_forecast drives the price pattern more reliably during periods of high demand."
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "1. The wind_power_forecast has a moderate causal influence on price over long horizons, primarily due to its impact on renewable energy supply and the subsequent adjustments in electricity demand and supply.\n2. An increase in wind_power_forecast typically decreases price over the long term, with a nonlinear relationship where the effect becomes more pronounced when wind power generation exceeds 50% of total electricity demand.\n3. Threshold values of wind_power_forecast exist, beyond which the long-term effect on price changes dramatically, with a notable shift around 70% of total electricity demand.\n4. The long-term causal influence of wind_power_forecast on price is generally weaker than its short-term influence, becoming a strong predictor when wind power generation consistently exceeds 30% of total electricity demand.\n5. The long-term trend of wind_power_forecast is stable over months, with a reliable weekly cycle, and does not exhibit significant long-term changes.\n6. The seasonal pattern of wind_power_forecast aligns with the seasonal pattern of price, with wind power generation peaking in summer and winter demand patterns influencing price during these periods."
+    }
+  ]
+}

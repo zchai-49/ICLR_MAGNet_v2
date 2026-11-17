@@ -1,0 +1,314 @@
+{
+ "context": "synthetic",
+ "endo": [
+  {
+   "name": "OT",
+   "index": 0,
+   "type": "endo",
+   "description": "target"
+  }
+ ],
+ "exo": [
+  {
+   "name": "X1",
+   "index": 1,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X2",
+   "index": 2,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X3",
+   "index": 3,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X4",
+   "index": 4,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X5",
+   "index": 5,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X6",
+   "index": 6,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X7",
+   "index": 7,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X8",
+   "index": 8,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X9",
+   "index": 9,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X10",
+   "index": 10,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X11",
+   "index": 11,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X12",
+   "index": 12,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X13",
+   "index": 13,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X14",
+   "index": 14,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X15",
+   "index": 15,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X16",
+   "index": 16,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X17",
+   "index": 17,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X18",
+   "index": 18,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X19",
+   "index": 19,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X20",
+   "index": 20,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X21",
+   "index": 21,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X22",
+   "index": 22,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X23",
+   "index": 23,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X24",
+   "index": 24,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X25",
+   "index": 25,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X26",
+   "index": 26,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X27",
+   "index": 27,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X28",
+   "index": 28,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X29",
+   "index": 29,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X30",
+   "index": 30,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X31",
+   "index": 31,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X32",
+   "index": 32,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X33",
+   "index": 33,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X34",
+   "index": 34,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X35",
+   "index": 35,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X36",
+   "index": 36,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X37",
+   "index": 37,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X38",
+   "index": 38,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X39",
+   "index": 39,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X40",
+   "index": 40,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X41",
+   "index": 41,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X42",
+   "index": 42,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X43",
+   "index": 43,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X44",
+   "index": 44,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X45",
+   "index": 45,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X46",
+   "index": 46,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X47",
+   "index": 47,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X48",
+   "index": 48,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X49",
+   "index": 49,
+   "type": "exo",
+   "description": "exogenous"
+  },
+  {
+   "name": "X50",
+   "index": 50,
+   "type": "exo",
+   "description": "exogenous"
+  }
+ ],
+ "name": "Syn50"
+}

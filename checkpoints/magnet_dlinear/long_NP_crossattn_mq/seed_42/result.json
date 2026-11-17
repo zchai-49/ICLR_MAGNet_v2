@@ -1,0 +1,107 @@
+{
+ "dataset": "NP",
+ "term": "long",
+ "side": "crossattn_mq",
+ "seed": 42,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_LAG0_NUISANCE": "1",
+  "MAGNET_SIG_PREWHITEN": "1"
+ },
+ "hparams": {
+  "moving_avg": 13,
+  "magnet_d_model": 32,
+  "lr": 0.0005
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.24534587562084198,
+ "stopped_at_epoch": 18,
+ "test_metrics": {
+  "mae": 0.5997887253761292,
+  "mse": 0.7805750370025635
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.14687806367874146,
+ "final_ratio": 0.36859846115112305,
+ "n_params_used": 753026,
+ "final_gate": 0.14687806367874146,
+ "group_norms_lag_x_var": [
+  [
+   0.39735424518585205,
+   0.054282087832689285,
+   0.0039557828567922115
+  ],
+  [
+   0.4471643269062042,
+   0.03155987709760666,
+   0.007455243729054928
+  ],
+  [
+   0.08997126668691635,
+   0.007880494929850101,
+   0.007852609269320965
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.3701429069042206,
+  0.06240639090538025
+ ],
+ "elapsed_s": 2272,
+ "timing": {
+  "gpu": "NVIDIA RTX A6000",
+  "train_epoch_s": [
+   99.734,
+   117.604,
+   123.198,
+   123.606,
+   122.53,
+   122.01,
+   122.488,
+   126.186,
+   122.095,
+   125.898,
+   125.298,
+   123.976,
+   122.999,
+   125.5,
+   108.074,
+   89.316,
+   88.298,
+   87.688
+  ],
+  "val_epoch_s": [
+   6.479,
+   10.273,
+   9.702,
+   10.875,
+   10.689,
+   10.813,
+   10.498,
+   9.919,
+   11.079,
+   11.607,
+   10.613,
+   10.62,
+   10.585,
+   10.321,
+   6.808,
+   7.201,
+   7.093,
+   6.933
+  ],
+  "mean_train_epoch_s": 115.3610450161828,
+  "epochs_run": 18,
+  "best_epoch": 3,
+  "train_loop_s": 2248.6081399917603,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 44.806640625,
+  "n_params_total": 777320,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 16.7578125
+ }
+}

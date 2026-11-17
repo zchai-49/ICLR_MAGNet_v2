@@ -1,0 +1,121 @@
+{
+ "dataset": "BE",
+ "term": "long",
+ "side": "dual_only",
+ "seed": 42,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 25,
+  "magnet_d_model": 64,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.4372042119503021,
+ "stopped_at_epoch": 25,
+ "test_metrics": {
+  "mae": 0.4062280058860779,
+  "mse": 0.617619514465332
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.04174691438674927,
+ "final_ratio": 0.33394548296928406,
+ "n_params_used": 812417,
+ "final_gate": 0.04174691438674927,
+ "group_norms_lag_x_var": [
+  [
+   0.4232066869735718,
+   0.12084789574146271,
+   0.03649241849780083
+  ],
+  [
+   2.7278425693511963,
+   0.13133279979228973,
+   0.12597700953483582
+  ],
+  [
+   0.34178754687309265,
+   0.012833032757043839,
+   0.007776939310133457
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.852753758430481,
+  0.46322035789489746
+ ],
+ "elapsed_s": 2534,
+ "timing": {
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "train_epoch_s": [
+   84.388,
+   92.194,
+   98.065,
+   89.583,
+   92.126,
+   93.695,
+   95.088,
+   94.683,
+   93.587,
+   90.121,
+   95.278,
+   94.486,
+   96.332,
+   93.071,
+   90.0,
+   88.848,
+   95.521,
+   95.629,
+   99.41,
+   84.602,
+   88.907,
+   93.687,
+   92.549,
+   94.304,
+   91.908
+  ],
+  "val_epoch_s": [
+   6.924,
+   7.3,
+   9.156,
+   7.651,
+   7.084,
+   8.18,
+   8.025,
+   7.511,
+   7.888,
+   7.811,
+   7.484,
+   8.522,
+   8.391,
+   8.093,
+   8.593,
+   7.646,
+   8.314,
+   8.65,
+   7.994,
+   7.225,
+   7.988,
+   7.73,
+   7.417,
+   7.774,
+   7.604
+  ],
+  "mean_train_epoch_s": 92.7225050830841,
+  "epochs_run": 25,
+  "best_epoch": 10,
+  "train_loop_s": 2515.0195050239563,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 57.75634765625,
+  "n_params_total": 852104,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 25.9130859375
+ }
+}

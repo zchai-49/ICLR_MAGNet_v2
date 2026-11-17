@@ -1,0 +1,87 @@
+{
+  "dataset": "SDWPF (Short-term Deterministic Wind Power Forecasting) dataset containing hourly meteorological observations and wind turbine power output. This dataset is widely used for wind power forecasting research, capturing the complex relationship between weather variables and actual power generation.",
+  "variant": "pnocausal",
+  "variables": [
+    "active_power",
+    "temperature",
+    "surface_pressure",
+    "relative_humidity",
+    "wind_speed",
+    "wind_direction",
+    "theoretical_power"
+  ],
+  "short": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "1. The typical short-term temporal pattern is persistent, as the lag-1 autocorrelation value of 0.9504324048043381 indicates a high degree of step-to-step persistence, suggesting that the variable tends to maintain its current value over short time intervals.\n\n2. The variable exhibits high volatility, as the coefficient of variation of 1.1159 indicates a relatively high relative volatility, suggesting that the actual power output is subject to significant fluctuations within a day or week.\n\n3. The variable changes most at a sub-daily time scale, as the acf_lag24 (daily cycle) value of 0.28359963700203317 suggests a moderate daily cycle, indicating that the power output exhibits some regular patterns on a daily basis.\n\n4. Sudden spikes or drops in the variable are likely caused by short-term weather conditions, such as changes in wind speed, direction, or temperature, which can significantly impact the actual power output of the wind turbine."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "The short-term temporal pattern of temperature itself is persistent, as evidenced by the high lag-1 autocorrelation value of 0.9948969096602742, indicating strong step-to-step persistence. This suggests that temperature tends to remain relatively stable over short time intervals.\n\nTemperature is relatively predictable step-to-step, with the highest predictability at the sub-daily time scale. The daily cycle autocorrelation (acf_lag24) value of 0.7785466401515648 indicates moderate predictability at the daily time scale, but the coefficient of variation (relative volatility) of 1.2348 suggests that temperature is relatively volatile, with significant fluctuations occurring over shorter time intervals."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "The short-term temporal pattern of surface_pressure is persistent, as evidenced by the high lag-1 autocorrelation value of 0.9985278886801475, indicating strong step-to-step persistence. This suggests that surface_pressure exhibits a strong tendency to maintain its value over short time intervals.\n\nSurface_pressure is relatively predictable, with a daily cycle indicated by the acf_lag24 value of 0.9111467948229456. This suggests that surface_pressure changes most at the daily time scale, with a moderate level of predictability."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "The short-term temporal pattern of relative_humidity is persistent, as evidenced by the high lag-1 autocorrelation value of 0.9861760739984127, indicating strong step-to-step persistence. This suggests that relative_humidity tends to maintain its value over short intervals, with minimal volatility.\n\nRelative_humidity is relatively predictable step-to-step, with a daily cycle pattern indicated by the acf_lag24 value of 0.360071761635141. This suggests that changes in relative_humidity occur in a regular, daily pattern, allowing for more predictable forecasting."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "The short-term temporal pattern of wind_speed is persistent, as evidenced by the high lag-1 autocorrelation value of 0.9743768950177444, indicating strong step-to-step persistence. This suggests that wind speed tends to maintain its value over short intervals, with minimal volatility.\n\nWind speed is relatively predictable step-to-step, with the most significant changes occurring at the sub-daily time scale. The daily cycle autocorrelation (acf_lag24) value of 0.17325090727482517 indicates moderate predictability at this scale, suggesting that wind speed patterns repeat approximately every 24 hours."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "The short-term temporal pattern of wind_direction itself is persistent, as evidenced by the high lag-1 autocorrelation value of 0.9293736506228232, indicating strong step-to-step persistence. This suggests that wind direction tends to remain relatively stable over short periods, with little volatility.\n\nWind direction is relatively predictable step-to-step, with the highest change occurring at the sub-daily time scale. The daily cycle autocorrelation (acf_lag24) value of 0.16129925254126337 indicates moderate predictability at the daily scale, but the data does not suggest significant changes at this time scale."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "The short-term temporal pattern of theoretical_power is persistent, as evidenced by the high lag-1 autocorrelation value of 0.8256261593039159, indicating strong step-to-step persistence. This suggests that theoretical_power tends to maintain its value over short intervals, with minimal volatility.\n\nTheoretical_power is relatively predictable step-to-step, with the autocorrelation value supporting this. However, its predictability changes at the daily time scale, as indicated by the acf_lag24 value of 0.04546292545377667, suggesting a daily cycle in the variability of theoretical_power."
+    }
+  ],
+  "long": [
+    {
+      "variable": "active_power",
+      "type": "endo",
+      "text": "1. The long-term trend of this variable is decreasing, with a slope of -0.005466 per time step, indicating a downward movement over time. The trend strength (R\u00b2 of linear fit) of 0.004 supports a meaningful directional movement, albeit weak.\n\n2. The seasonal pattern is strong, with a period-to-period variation of 0.469, and the weekly and monthly autocorrelations (-0.008500810227881543 and 0.0176746606579776, respectively) support this, indicating reliable repetition week-over-week and month-over-month.\n\n3. The largest changes in this variable are driven by weekly cycles, as indicated by the weekly autocorrelation (-0.008500810227881543), which suggests that the variable's value changes in a predictable pattern on a weekly basis.\n\n4. Long-term conditions or structural changes that cause this variable to deviate from its seasonal pattern include a decreasing trend, which weakens the seasonal pattern over time, and the influence of external factors that disrupt the regular weekly and monthly cycles."
+    },
+    {
+      "variable": "temperature",
+      "type": "exo",
+      "text": "The long-term trend of temperature itself is decreasing, with a slope of -0.000595 per time step, indicating a general downward trend over months. However, temperature exhibits strong weekly and monthly cycles, as evidenced by the acf_lag168 and acf_lag720 values, suggesting that the trend does not repeat reliably at these time scales."
+    },
+    {
+      "variable": "surface_pressure",
+      "type": "exo",
+      "text": "The long-term trend of surface_pressure itself is stable, as there is no significant slope or trend strength (R\u00b2 of linear fit) mentioned in the statistics. There is no reliable repeating pattern at weekly or monthly cycles, as the acf_lag168 and acf_lag720 values do not indicate significant weekly or monthly cycles in surface_pressure."
+    },
+    {
+      "variable": "relative_humidity",
+      "type": "exo",
+      "text": "The long-term trend of relative_humidity is stable over months, with no significant increase or decrease. It does not repeat reliably at weekly or monthly cycles.\n\nThe long-term trend of relative_humidity is stable over months, with no significant increase or decrease. It does not repeat reliably at weekly or monthly cycles."
+    },
+    {
+      "variable": "wind_speed",
+      "type": "exo",
+      "text": "The long-term trend of wind_speed itself is stable, as there is no significant slope or trend strength (R\u00b2 of linear fit) mentioned. There is no reliable repeating pattern at weekly or monthly cycles, as the acf_lag168 and acf_lag720 values do not indicate a strong or consistent cycle."
+    },
+    {
+      "variable": "wind_direction",
+      "type": "exo",
+      "text": "The long-term trend of wind_direction itself is stable, as there is no significant slope or trend strength observed in the training data. There is no reliable repeating pattern at weekly or monthly cycles, as the acf_lag168 and acf_lag720 values are not indicative of a strong, repeating cycle."
+    },
+    {
+      "variable": "theoretical_power",
+      "type": "exo",
+      "text": "The long-term trend of theoretical_power is stable over months, with no significant increase or decrease. It does not repeat reliably at weekly or monthly cycles.\n\nTheoretical_power does not exhibit a clear trend over months, with no notable increase or decrease. Similarly, it does not display a reliable weekly or monthly cycle."
+    }
+  ]
+}

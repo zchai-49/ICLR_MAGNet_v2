@@ -1,0 +1,26 @@
+{
+    "name"   : "PJM",
+    "context": "Pennsylvania-New Jersey-Maryland (COMED zone) electricity market dataset with hourly zonal electricity price and exogenous load measurements spanning 6 years (2013-01-01 to 2018-12-24).",
+    "endo": [
+        {
+            "name"       : "price",
+            "index"      : 0,
+            "type"       : "endo",
+            "description": "Day-ahead hourly zonal electricity price in the Commonwealth Edison (COMED) area of the PJM market (USD/MWh)."
+        }
+    ],
+    "exo": [
+        {
+            "name"       : "system_load_forecast",
+            "index"      : 1,
+            "type"       : "exo",
+            "description": "Forecasted total PJM system load in MW, reflecting anticipated electricity demand across the entire PJM interconnection."
+        },
+        {
+            "name"       : "comed_load_forecast",
+            "index"      : 2,
+            "type"       : "exo",
+            "description": "Forecasted zonal load in MW specific to the COMED area, capturing local demand conditions within the PJM market."
+        }
+    ]
+}

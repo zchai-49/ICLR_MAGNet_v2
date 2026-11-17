@@ -1,0 +1,43 @@
+{
+  "dataset": "Rapel reservoir dataset from Chile, containing daily measurements of water level, tributary inflow, and precipitation. This reservoir is a key hydroelectric asset in Chile's electricity system, where inflow and precipitation strongly influence water level dynamics.",
+  "variant": "psimple",
+  "variables": [
+    "water_level",
+    "tributary_inflow",
+    "precipitation"
+  ],
+  "short": [
+    {
+      "variable": "water_level",
+      "type": "endo",
+      "text": "The time series water_level represents the daily average water level in the Rapel reservoir, serving as a key indicator for forecasting reservoir state and informing hydroelectric generation planning. This data series is likely used to predict water levels, manage reservoir operations, and optimize energy production. It provides valuable insights into the reservoir's water management and hydroelectric power generation."
+    },
+    {
+      "variable": "tributary_inflow",
+      "type": "exo",
+      "text": "The tributary_inflow time series represents the daily average tributary inflow (Afluente) in m\u00b3/s into the Rapel reservoir, which is the primary external driver influencing changes in reservoir water level. This time series is closely related to water_level, as the inflow of water from tributaries directly affects the reservoir's water volume, thereby impacting its water level. Variations in tributary inflow can lead to fluctuations in water level, making it a critical exogenous variable in understanding reservoir dynamics."
+    },
+    {
+      "variable": "precipitation",
+      "type": "exo",
+      "text": "Time series precipitation data for the Rapel reservoir catchment area provides a detailed record of daily precipitation patterns, influencing water inflow and level changes. This exogenous variable helps predict future water levels by accounting for the cumulative effect of precipitation on the reservoir's capacity. By incorporating daily precipitation data, models can better forecast water level changes, enabling more accurate management and planning of water resources."
+    }
+  ],
+  "long": [
+    {
+      "variable": "water_level",
+      "type": "endo",
+      "text": "The time series water_level represents the daily average water level in the Rapel reservoir, serving as a key indicator for forecasting reservoir state and informing hydroelectric generation planning. This data series is likely used to predict water levels, manage reservoir operations, and optimize energy production. It provides valuable insights into the reservoir's water management and hydroelectric power generation."
+    },
+    {
+      "variable": "tributary_inflow",
+      "type": "exo",
+      "text": "The tributary_inflow time series represents the daily average tributary inflow (Afluente) in m\u00b3/s into the Rapel reservoir, which is the primary external driver influencing changes in reservoir water level. This time series is closely related to water_level, as the inflow of water from tributaries directly affects the reservoir's water volume, thereby impacting its water level. Variations in tributary inflow can lead to fluctuations in water level, making it a critical exogenous variable in understanding reservoir dynamics."
+    },
+    {
+      "variable": "precipitation",
+      "type": "exo",
+      "text": "Time series precipitation data for the Rapel reservoir catchment area provides a detailed record of daily precipitation patterns, influencing water inflow and level changes. This exogenous variable helps predict future water levels by accounting for the cumulative effect of precipitation on the reservoir's capacity. By incorporating daily precipitation data, models can better forecast water level changes, enabling more accurate management and planning of water resources."
+    }
+  ]
+}

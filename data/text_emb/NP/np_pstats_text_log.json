@@ -1,0 +1,43 @@
+{
+  "dataset": "Nord Pool electricity market dataset with hourly electricity price and exogenous grid measurements spanning 6 years (2013-01-01 to 2018-12-24).",
+  "variant": "pstats",
+  "variables": [
+    "price",
+    "grid_load_forecast",
+    "wind_power_forecast"
+  ],
+  "short": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 29.0191, Std: 9.4875\n- Range: [1.1400, 199.9700]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9719102382010193\n- acf_lag24 (daily cycle): 0.8851682802729692\n- Coefficient of variation (relative volatility): 0.3269"
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 43985.4584, Std: 8709.1843\n- Range: [26222.0000, 70576.0000]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9874293521419164\n- acf_lag24 (daily cycle): 0.9499330485977403\n- Coefficient of variation (relative volatility): 0.1980"
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 1443.3365, Std: 1114.3224\n- Range: [22.0000, 4715.0000]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9946213101738401\n- acf_lag24 (daily cycle): 0.4616894725544553\n- Coefficient of variation (relative volatility): 0.7720"
+    }
+  ],
+  "long": [
+    {
+      "variable": "price",
+      "type": "endo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 29.0191, Std: 9.4875\n- Overall trend: decreasing (slope=-0.000382 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.181\n- acf_lag168 (weekly cycle): 0.8047137378609343\n- acf_lag720 (monthly cycle): 0.6016600484775501\n- Seasonality strength (period-to-period variation): strong (0.856)"
+    },
+    {
+      "variable": "grid_load_forecast",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 43985.4584, Std: 8709.1843\n- Overall trend: increasing (slope=0.038834 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.002\n- acf_lag168 (weekly cycle): 0.9446358417124691\n- acf_lag720 (monthly cycle): 0.7413090432111699\n- Seasonality strength (period-to-period variation): strong (0.857)"
+    },
+    {
+      "variable": "wind_power_forecast",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 1443.3365, Std: 1114.3224\n- Overall trend: increasing (slope=0.008870 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.007\n- acf_lag168 (weekly cycle): 0.12229017079611375\n- acf_lag720 (monthly cycle): 0.08857072459256957\n- Seasonality strength (period-to-period variation): strong (0.580)"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "name"   : "FR",
+    "context": "France electricity market dataset with hourly electricity price and exogenous load and generation measurements spanning 6 years (2012-01-09 to 2017-12-31).",
+    "endo": [
+        {
+            "name"       : "price",
+            "index"      : 0,
+            "type"       : "endo",
+            "description": "Day-ahead hourly electricity price in the French electricity market (EUR/MWh)."
+        }
+    ],
+    "exo": [
+        {
+            "name"       : "load_forecast",
+            "index"      : 1,
+            "type"       : "exo",
+            "description": "Forecasted total electricity load in MW for France, reflecting anticipated national electricity demand."
+        },
+        {
+            "name"       : "generation_forecast",
+            "index"      : 2,
+            "type"       : "exo",
+            "description": "Forecasted total power generation in MW for France, capturing expected domestic supply conditions that influence electricity prices."
+        }
+    ]
+}

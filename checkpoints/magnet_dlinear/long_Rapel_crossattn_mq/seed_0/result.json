@@ -1,0 +1,123 @@
+{
+ "dataset": "Rapel",
+ "term": "long",
+ "side": "crossattn_mq",
+ "seed": 0,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 51,
+  "magnet_d_model": 32,
+  "lr": 0.0001
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.344381719827652,
+ "stopped_at_epoch": 26,
+ "test_metrics": {
+  "mae": 0.4353455901145935,
+  "mse": 0.537584662437439
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.0,
+ "final_ratio": 0.780707836151123,
+ "n_params_used": 143984,
+ "final_gate": 0.0,
+ "group_norms_lag_x_var": [
+  [
+   0.8291224241256714,
+   0.8263813853263855,
+   0.7319335341453552
+  ],
+  [
+   0.42019158601760864,
+   0.6941211223602295,
+   0.6598716378211975
+  ],
+  [
+   0.3981664478778839,
+   0.6678657531738281,
+   0.6455599069595337
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.9645094275474548,
+  0.6749998331069946
+ ],
+ "elapsed_s": 90,
+ "timing": {
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "train_epoch_s": [
+   3.604,
+   3.1,
+   3.084,
+   3.133,
+   2.946,
+   2.931,
+   3.053,
+   3.113,
+   3.257,
+   3.087,
+   2.965,
+   3.117,
+   3.179,
+   2.929,
+   3.186,
+   3.323,
+   3.346,
+   3.145,
+   3.268,
+   3.201,
+   2.999,
+   3.236,
+   3.162,
+   3.098,
+   2.956,
+   3.175
+  ],
+  "val_epoch_s": [
+   0.222,
+   0.229,
+   0.235,
+   0.195,
+   0.218,
+   0.223,
+   0.233,
+   0.249,
+   0.207,
+   0.235,
+   0.231,
+   0.247,
+   0.23,
+   0.224,
+   0.248,
+   0.246,
+   0.254,
+   0.255,
+   0.231,
+   0.238,
+   0.235,
+   0.243,
+   0.201,
+   0.236,
+   0.237,
+   0.244
+  ],
+  "mean_train_epoch_s": 3.138131416760958,
+  "epochs_run": 26,
+  "best_epoch": 11,
+  "train_loop_s": 87.6397430896759,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 26.81201171875,
+  "n_params_total": 168278,
+  "n_train_windows": 2147,
+  "batch_size": 32,
+  "load_avg_1m": 28.0458984375
+ }
+}

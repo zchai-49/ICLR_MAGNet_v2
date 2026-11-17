@@ -1,0 +1,127 @@
+{
+ "dataset": "Rapel",
+ "term": "short",
+ "side": "dual_gated_scale",
+ "seed": 2024,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 51,
+  "magnet_d_model": 32,
+  "lr": 0.0005
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.16563434898853302,
+ "stopped_at_epoch": 28,
+ "test_metrics": {
+  "mae": 0.22436055541038513,
+  "mse": 0.22293896973133087
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.04822041018691836,
+ "final_ratio": 0.4491618573665619,
+ "n_params_used": 126577,
+ "final_gate": 0.04822041094303131,
+ "group_norms_lag_x_var": [
+  [
+   1.0020421743392944,
+   0.15021111071109772,
+   0.06214570999145508
+  ],
+  [
+   0.19984349608421326,
+   0.04743517190217972,
+   0.016697343438863754
+  ],
+  [
+   0.018664272502064705,
+   0.07649454474449158,
+   0.040002863854169846
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.5121423602104187,
+  0.09012676030397415
+ ],
+ "elapsed_s": 156,
+ "timing": {
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "train_epoch_s": [
+   6.832,
+   5.193,
+   5.098,
+   4.83,
+   5.505,
+   5.089,
+   5.248,
+   4.217,
+   3.893,
+   3.915,
+   4.2,
+   3.805,
+   4.278,
+   4.101,
+   4.884,
+   6.463,
+   5.315,
+   5.719,
+   5.395,
+   5.707,
+   4.718,
+   4.827,
+   5.27,
+   5.497,
+   5.313,
+   5.287,
+   4.998,
+   5.32
+  ],
+  "val_epoch_s": [
+   0.366,
+   0.31,
+   0.405,
+   0.395,
+   0.309,
+   0.393,
+   0.556,
+   0.219,
+   0.385,
+   0.384,
+   0.336,
+   0.364,
+   0.395,
+   0.204,
+   0.549,
+   0.491,
+   0.682,
+   0.423,
+   0.392,
+   0.383,
+   0.375,
+   0.311,
+   0.416,
+   0.382,
+   0.589,
+   0.325,
+   0.7,
+   0.314
+  ],
+  "mean_train_epoch_s": 5.032765209674835,
+  "epochs_run": 28,
+  "best_epoch": 13,
+  "train_loop_s": 152.26971864700317,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 21.73046875,
+  "n_params_total": 150871,
+  "n_train_windows": 2287,
+  "batch_size": 32,
+  "load_avg_1m": 24.806640625
+ }
+}

@@ -1,0 +1,240 @@
+{
+  "dataset": "synthetic",
+  "variables": [
+    "OT",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13",
+    "X14",
+    "X15",
+    "X16",
+    "X17",
+    "X18",
+    "X19",
+    "X20"
+  ],
+  "short": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "The typical short-term temporal pattern is persistent, as the lag-1 autocorrelation (0.8578936096159079) is close to 1, indicating a strong step-to-step persistence. This supports the idea that the variable tends to revert to its mean over time.\n\nThe variable is highly volatile, with a coefficient of variation (534.1015) indicating high relative volatility, suggesting that the variable is noisy within a day or week.\n\nThe variable changes most at a daily time scale, as the acf_lag24 (0.44386041225188105) value is relatively high, indicating a daily cycle.\n\nSudden spikes or drops are likely caused by extreme values within the range [-3.9676, 4.3026], which may be outliers or unusual events that deviate significantly from the mean."
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X1 is persistent, as the lag-1 autocorrelation is 0.9407929197758867, indicating a high degree of step-to-step persistence. This suggests that X1 tends to maintain its current value for a short period, rather than being volatile or irregular.\n\nX1 is relatively predictable step-to-step, with a high degree of persistence. However, its predictability decreases at shorter sub-daily time scales, as the daily cycle (acf_lag24) is 0.2901663286463897, indicating some degree of variability and unpredictability at this scale."
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X2 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.8336784974070176, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX2 is relatively predictable step-to-step, with a high degree of persistence. The daily cycle, as indicated by the acf_lag24, suggests that X2 changes most at the daily time scale, with a sub-daily time scale not being explicitly mentioned."
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X3 is persistent, as the lag-1 autocorrelation is 0.8770890924280315, indicating a high degree of step-to-step persistence. This suggests that X3 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX3 is moderately predictable, with a daily cycle indicated by the acf_lag24 value of 0.4181493508186253. This suggests that X3's behavior changes most at a daily time scale, with a moderate level of predictability."
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X4 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.933842554421988, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX4 is relatively predictable step-to-step, with a high degree of persistence. The most predictable change occurs at the daily time scale, as indicated by the acf_lag24 (daily cycle) value of 0.2117310434679379."
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X5 is persistent, as the lag-1 autocorrelation value of 0.8615363294491577 indicates a high degree of step-to-step persistence. This suggests that X5 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX5 is moderately predictable, with a daily cycle indicated by the acf_lag24 value of 0.2694062820847314. This suggests that X5's behavior changes most at a daily time scale, with some predictability in its step-to-step movements."
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X6 itself is volatile, as indicated by its high coefficient of variation (relative volatility) of 105.6749, suggesting high variability in its values. The lag-1 autocorrelation of 0.7693057960546861 supports this, as a positive autocorrelation coefficient indicates step-to-step persistence, implying that X6 tends to maintain its value from one time step to the next.\n\nX6 is moderately predictable step-to-step, with a lag-1 autocorrelation of 0.7693057960546861 suggesting a moderate level of persistence. However, its daily cycle, as indicated by the acf_lag24 of 0.18386239134448687, suggests that X6's value changes more predictably at a daily time scale, with a moderate level of daily persistence."
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X7 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.804322144038743, indicating a strong tendency for the variable to maintain its current value. This suggests that X7 exhibits a form of step-to-step persistence.\n\nX7 is relatively predictable step-to-step, with a high lag-1 autocorrelation value. However, its predictability changes at a daily time scale, as the autocorrelation at lag-24 (daily cycle) is 0.38060525745965335, indicating a weaker tendency for the variable to maintain its value over longer periods."
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X8 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.865458584910355, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX8 is relatively predictable step-to-step, with a high degree of persistence. The most predictable change occurs at the daily time scale, as indicated by the acf_lag24 (daily cycle) value of 0.2672368847333647."
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X9 is persistent, as the lag-1 autocorrelation value of 0.842262817912169 indicates a high degree of step-to-step persistence. This suggests that X9 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX9 is moderately predictable, with a daily cycle indicated by the acf_lag24 value of 0.22867287592461072. This suggests that X9's behavior changes most at a daily time scale, with a moderate level of predictability."
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X10 is persistent, as the lag-1 autocorrelation value of 0.9102396715670615 indicates a high degree of step-to-step persistence. This suggests that X10 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX10 is moderately predictable step-to-step, with a daily time scale being the most significant factor in its predictability. The daily cycle indicated by the acf_lag24 value of 0.15449268072905553 suggests that X10's behavior is somewhat cyclical, with changes occurring at a daily scale."
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X11 is persistent, as the lag-1 autocorrelation is 0.9495226624220199, indicating a high degree of step-to-step persistence. This suggests that X11 tends to maintain its current value for a short period, rather than being volatile or irregular.\n\nX11 is moderately predictable step-to-step, with a daily time scale being the most significant factor in its predictability. The autocorrelation at lag-24 (daily cycle) is 0.3965332337625831, indicating that X11's behavior is somewhat predictable on a daily basis, but not extremely so."
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X12 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.8770673777356632, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX12 is relatively unpredictable step-to-step, with a coefficient of variation (relative volatility) of 127.1839, indicating high volatility. However, its daily cycle is somewhat predictable, as the acf_lag24 (daily cycle) is 0.28176113617452736, suggesting that the variable's behavior follows a regular pattern at this time scale."
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X13 is persistent, as the lag-1 autocorrelation is 0.8487955903670781, indicating a high degree of step-to-step persistence. This suggests that X13 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX13 is moderately predictable step-to-step, with a daily time scale being the most significant factor in its predictability. The daily cycle, as indicated by the acf_lag24, suggests that X13's behavior is influenced by daily patterns, making it more predictable at this scale."
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X14 is volatile, as indicated by its high coefficient of variation (92.7236) and range ([-3.4473, 3.8309]). The lag-1 autocorrelation (0.8906096827225581) supports this, suggesting a high degree of step-to-step persistence.\n\nX14 is moderately predictable step-to-step, with a daily time scale being the most significant factor in its predictability."
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X15 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.8445668486896678, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX15 is relatively predictable step-to-step, with a high degree of persistence. Its predictability changes most at the daily time scale, as indicated by the acf_lag24 (daily cycle) value of 0.3030950484303307, suggesting that the variable's behavior is more cyclical at this scale."
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X16 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.8354199170276276, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX16 is relatively predictable step-to-step, with a high degree of persistence. Its predictability increases at the daily time scale, where the autocorrelation coefficient (acf_lag24) is 0.15692207395333577, suggesting that the variable's behavior is more cyclical and easier to forecast at this scale."
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X17 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.9053323202615241, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX17 is relatively predictable step-to-step, with a high degree of persistence. Its predictability increases at the daily time scale, where the autocorrelation coefficient (acf_lag24) is 0.22644591373534392, suggesting that the variable's behavior is more cyclical and easier to forecast at this scale."
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X18 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.9447308805126491, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX18 is relatively predictable step-to-step, with a high degree of persistence. Its predictability increases at the daily time scale, where the autocorrelation coefficient (acf_lag24) is 0.38648669869305535, suggesting that the variable's behavior is more cyclical and easier to forecast at this scale."
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X19 is persistent, as the lag-1 autocorrelation is 0.8906858699414384, indicating a high degree of step-to-step persistence. This suggests that X19 tends to maintain its current value for a short period, rather than being highly volatile.\n\nX19 is moderately predictable, with a daily cycle indicated by the acf_lag24 value of 0.48853505391784785. This suggests that X19's behavior changes most at the daily time scale, with a moderate level of predictability."
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "The short-term temporal pattern of X20 is persistent, as the lag-1 autocorrelation (step-to-step persistence) is 0.9174807227782356, indicating a strong tendency for the variable to maintain its current value. This high autocorrelation value supports the notion of persistence.\n\nX20 is relatively predictable step-to-step, with a high degree of persistence. Its predictability increases at the daily time scale, where the autocorrelation coefficient (acf_lag24) is 0.250421631445368, suggesting that the variable's behavior is more cyclical and easier to forecast at this scale."
+    }
+  ],
+  "long": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "1. The long-term trend of this variable is decreasing, and the trend strength supports a meaningful directional movement over months, as the slope is -0.000003 per time step.\n2. The seasonal pattern is moderate, and the weekly and monthly autocorrelations (0.4083152568087085 and 0.43139052623492347, respectively) support this, indicating reliable week-over-week and month-over-month repetition.\n3. The largest changes in this variable are driven by its weekly cycle, as the autocorrelation at lag 168 is higher than that at lag 720.\n4. Long-term conditions or structural changes that cause this variable to deviate from its seasonal pattern are not explicitly mentioned, but the moderate seasonal strength and decreasing trend suggest potential for external influences or anomalies."
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "The long-term trend of X1 itself is decreasing, as indicated by the slope of -0.000005 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.014326771881314537 and the monthly cycle (acf_lag720) is 0.079291564693884, both of which are below the threshold for strong seasonality."
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "The long-term trend of X2 itself is decreasing, as indicated by the slope of -0.000009 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.16317839322897737 and the monthly cycle (acf_lag720) is 0.16772645090949015, both of which are below the moderate seasonality strength threshold of 0.221."
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "The long-term trend of X3 itself is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles.\n\nX3's long-term trend does not exhibit a significant trend strength (R\u00b2 of linear fit: 0.000), indicating no overall increase or decrease."
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "The long-term trend of X4 itself is decreasing, as indicated by the slope of -0.000013 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle is positive and the monthly cycle is negative."
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "The long-term trend of X5 itself is decreasing, as indicated by the slope of -0.000005 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.013585338926838705 and the monthly cycle (acf_lag720) is 0.0737513681198002, both of which are below the threshold for strong seasonality."
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "The long-term trend of X6 itself is decreasing, as indicated by the slope of -0.000009 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.15109700515631558 and the monthly cycle (acf_lag720) is 0.15835128363881928, both of which are below the moderate seasonality strength threshold of 0.213."
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "The long-term trend of X7 itself is decreasing, as indicated by the slope of -0.000001 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.3525278619622787 and the monthly cycle (acf_lag720) is 0.36554502186198534, both of which are less than the seasonality strength of 0.190."
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "The long-term trend of X8 itself is decreasing, as indicated by the slope of -0.000006 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.014324404612699241 and the monthly cycle (acf_lag720) is 0.07184404224660844, both of which are below the threshold for strong seasonality."
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "The long-term trend of X9 itself is decreasing, as indicated by the slope of -0.000011 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) and monthly cycle (acf_lag720) values are relatively low, and the seasonality strength is moderate but not periodic."
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "The long-term trend of X10 itself is stable, as indicated by a slope of 0.000004 per time step, which is significantly lower than the trend of the target variable OT. There is no reliable repeating pattern at weekly or monthly cycles for X10 itself."
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "The long-term trend of X11 itself is stable, as the slope is 0.000004 per time step, indicating a very slight increase. It does not repeat reliably at weekly or monthly cycles, as the acf_lag168 and acf_lag720 values are not significant enough to suggest a strong weekly or monthly cycle."
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "The long-term trend of X12 is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles, as indicated by the low trend strength (R\u00b2 of linear fit) and the absence of significant cycles in the ACF.\n\nThe long-term trend of X12 is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles, as indicated by the low trend strength (R\u00b2 of linear fit) and the absence of significant cycles in the ACF."
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "The long-term trend of X13 itself is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles.\n\nX13's long-term trend does not exhibit a significant trend strength (R\u00b2 of linear fit: 0.000), indicating no overall increase or decrease."
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "The long-term trend of X14 itself is decreasing, as indicated by the slope of -0.000003 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.1473898097007462 and the monthly cycle (acf_lag720) is 0.12713860068360544, both of which are less than the moderate seasonality strength of 0.272."
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "The long-term trend of X15 itself is decreasing, as indicated by the slope of -0.000002 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.29627730909241784 and the monthly cycle (acf_lag720) is 0.3102465645454564, both of which are less than the moderate seasonality strength of 0.178."
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "The long-term trend of X16 is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles, as the trend strength (R\u00b2 of linear fit) is extremely low (0.000), indicating no significant pattern or cycle.\n\nThe long-term trend of X16 itself is stable, with no significant increase or decrease over months. It does not repeat reliably at weekly or monthly cycles, as the trend strength (R\u00b2 of linear fit) is extremely low (0.000), indicating no significant pattern or cycle."
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "The long-term trend of X17 itself is stable, as the slope of the linear fit is very close to zero. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle is only moderate (0.10849058002361053) and the monthly cycle is weak (0.057065849751857585)."
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "The long-term trend of X18 itself is stable, as the slope of 0.000009 per time step is negligible and does not indicate a significant increase or decrease. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) and monthly cycle (acf_lag720) are relatively weak and do not exhibit strong periodicity."
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "The long-term trend of X19 itself is stable, as the slope of the linear fit is very close to zero (0.000006 per time step). There is no reliable repeating pattern at weekly or monthly cycles, as the acf values for these lags are relatively low (0.4811 and 0.4865, respectively)."
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "The long-term trend of X20 itself is decreasing, as indicated by the slope of -0.000002 per time step. There is no reliable repeating pattern at weekly or monthly cycles, as the weekly cycle (acf_lag168) is 0.1638244737026717 and the monthly cycle (acf_lag720) is 0.15713055306467028, both of which are below the moderate seasonality strength threshold of 0.299."
+    }
+  ]
+}

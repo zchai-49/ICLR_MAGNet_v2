@@ -1,0 +1,50 @@
+{
+    "name": "Sdwpf",
+    "context": "SDWPF (Short-term Deterministic Wind Power Forecasting) dataset containing hourly meteorological observations and wind turbine power output. This dataset is widely used for wind power forecasting research, capturing the complex relationship between weather variables and actual power generation.",
+    "endo": [
+        {
+            "name": "active_power",
+            "index": 0,
+            "type": "endo",
+            "description": "Actual active power output (Patv) of the wind turbine in kW. This is the primary target variable to be forecasted."
+        }
+    ],
+    "exo": [
+        {
+            "name": "temperature",
+            "index": 1,
+            "type": "exo",
+            "description": "Temperature at 2 meters above ground (T2m) in Kelvin. Affects air density and turbine efficiency."
+        },
+        {
+            "name": "surface_pressure",
+            "index": 2,
+            "type": "exo",
+            "description": "Surface pressure (Sp) in Pa. Influences air density and power generation."
+        },
+        {
+            "name": "relative_humidity",
+            "index": 3,
+            "type": "exo",
+            "description": "Relative humidity (RelH) in percentage. Affects air density and turbine performance."
+        },
+        {
+            "name": "wind_speed",
+            "index": 4,
+            "type": "exo",
+            "description": "Wind speed (Wspd_w) at hub height. The most critical feature for wind power generation."
+        },
+        {
+            "name": "wind_direction",
+            "index": 5,
+            "type": "exo",
+            "description": "Wind direction (Wdir_w) in degrees. Influences wake effects and effective power capture."
+        },
+        {
+            "name": "theoretical_power",
+            "index": 6,
+            "type": "exo",
+            "description": "Theoretical power (Tp) calculated from wind speed. Serves as a strong baseline and important exogenous feature."
+        }
+    ]
+}

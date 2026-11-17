@@ -1,0 +1,486 @@
+{
+ "DAG/Syn5/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6162581741809845,
+   "NP": 0.5885173082351685,
+   "Sdwpfh1": 0.6239152252674103
+  }
+ },
+ "DAG/Syn5/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.8481234908103943,
+   "NP": 0.7876227498054504,
+   "Sdwpfh1": 0.8311627805233002
+  }
+ },
+ "DAG/Syn20/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.57419154047966,
+   "NP": 0.5503231287002563,
+   "Sdwpfh1": 0.5697901248931885
+  }
+ },
+ "DAG/Syn20/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6667392551898956,
+   "NP": 0.6417236030101776,
+   "Sdwpfh1": 0.6968391835689545
+  }
+ },
+ "DAG/Syn50/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5371010005474091,
+   "NP": 0.5223994553089142,
+   "Sdwpfh1": 0.5341755747795105
+  }
+ },
+ "DAG/Syn50/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6720930933952332,
+   "NP": 0.6270434558391571,
+   "Sdwpfh1": 0.7255744636058807
+  }
+ },
+ "DAG/Syn20weak/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.576677680015564,
+   "NP": 0.5761812627315521,
+   "Sdwpfh1": 0.5756286382675171
+  }
+ },
+ "DAG/Syn20weak/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5748403966426849,
+   "NP": 0.5748023092746735,
+   "Sdwpfh1": 0.5782046914100647
+  }
+ },
+ "DAG/Syn20null/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6285421848297119,
+   "NP": 0.6275854408740997,
+   "Sdwpfh1": 0.6287623643875122
+  }
+ },
+ "DAG/Syn20null/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.6316502690315247,
+   "NP": 0.6368433833122253,
+   "Sdwpfh1": 0.6341407597064972
+  }
+ },
+ "GCGNet/Syn5/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5339021384716034,
+   "NP": 0.5273590683937073,
+   "Sdwpfh1": 0.5446226596832275,
+   "Sdwpfm1": 0.5951724350452423
+  }
+ },
+ "GCGNet/Syn5/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.7616657614707947,
+   "NP": 0.76795294880867,
+   "Sdwpfh1": 0.7691474854946136,
+   "Sdwpfm1": 0.7811785340309143
+  }
+ },
+ "GCGNet/Syn20/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.519056886434555,
+   "NP": 0.604475736618042,
+   "Sdwpfh1": 0.5385336577892303,
+   "Sdwpfm1": 0.5568706095218658
+  }
+ },
+ "GCGNet/Syn20/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6389971375465393,
+   "NP": 0.6306466460227966,
+   "Sdwpfh1": 0.6357007622718811,
+   "Sdwpfm1": 0.6425369381904602
+  }
+ },
+ "GCGNet/Syn50/short": {
+  "winner": "Sdwpfm1",
+  "val": {
+   "Energy": 0.6071878969669342,
+   "Sdwpfm1": 0.5982275605201721
+  }
+ },
+ "GCGNet/Syn50/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.7682051658630371,
+   "Sdwpfh1": 0.6392094790935516,
+   "Sdwpfm1": 0.6442875564098358
+  }
+ },
+ "GCGNet/Syn20weak/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6559866368770599,
+   "NP": 0.5883135497570038,
+   "Sdwpfh1": 0.6400332152843475,
+   "Sdwpfm1": 0.5971062481403351
+  }
+ },
+ "GCGNet/Syn20weak/long": {
+  "winner": "Sdwpfm1",
+  "val": {
+   "Energy": 0.6328574419021606,
+   "Sdwpfh1": 0.5915844440460205,
+   "Sdwpfm1": 0.5905114114284515
+  }
+ },
+ "GCGNet/Syn20null/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.64742311835289,
+   "Sdwpfh1": 0.6493101119995117,
+   "Sdwpfm1": 0.6541062593460083
+  }
+ },
+ "GCGNet/Syn20null/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.6626140475273132,
+   "Sdwpfh1": 0.6454844176769257,
+   "Sdwpfm1": 0.6468083560466766
+  }
+ },
+ "TimeXer/Syn5/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.5820055305957794,
+   "NP": 0.5976428389549255,
+   "Sdwpfh1": 0.543364018201828
+  }
+ },
+ "TimeXer/Syn5/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.7757546603679657,
+   "NP": 0.7753511369228363,
+   "Sdwpfh1": 0.7748518586158752
+  }
+ },
+ "TimeXer/Syn20/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.5682854652404785,
+   "NP": 0.6074782311916351,
+   "Sdwpfh1": 0.5074523389339447
+  }
+ },
+ "TimeXer/Syn20/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.6471645832061768,
+   "NP": 0.6464863419532776,
+   "Sdwpfh1": 0.6454574465751648
+  }
+ },
+ "TimeXer/Syn50/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.5273728668689728,
+   "NP": 0.5716451108455658,
+   "Sdwpfh1": 0.489697590470314
+  }
+ },
+ "TimeXer/Syn50/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.6205183565616608,
+   "NP": 0.6213144958019257,
+   "Sdwpfh1": 0.6265847384929657
+  }
+ },
+ "TimeXer/Syn20weak/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.580384373664856,
+   "NP": 0.5984419882297516,
+   "Sdwpfh1": 0.5705879330635071
+  }
+ },
+ "TimeXer/Syn20weak/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.5950590670108795,
+   "NP": 0.5952069461345673,
+   "Sdwpfh1": 0.5940678417682648
+  }
+ },
+ "TimeXer/Syn20null/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6522722244262695,
+   "NP": 0.6399077773094177,
+   "Sdwpfh1": 0.648183137178421
+  }
+ },
+ "TimeXer/Syn20null/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.6521156132221222,
+   "NP": 0.6519250273704529,
+   "Sdwpfh1": 0.6489703953266144
+  }
+ },
+ "TimeKAN/Syn5/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.5465551614761353,
+   "NP": 0.5547113716602325,
+   "Sdwpfh1": 0.5670914649963379
+  }
+ },
+ "TimeKAN/Syn5/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.791509360074997,
+   "NP": 0.791408509016037,
+   "Sdwpfh1": 0.7908480763435364
+  }
+ },
+ "TimeKAN/Syn20/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.5164029896259308,
+   "NP": 0.5191891491413116,
+   "Sdwpfh1": 0.5313923060894012
+  }
+ },
+ "TimeKAN/Syn20/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6494326293468475,
+   "NP": 0.6463404297828674,
+   "Sdwpfh1": 0.6502503454685211
+  }
+ },
+ "TimeKAN/Syn50/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.4977181404829025,
+   "NP": 0.5235747396945953,
+   "Sdwpfh1": 0.5574001371860504
+  }
+ },
+ "TimeKAN/Syn50/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6236050724983215,
+   "NP": 0.6229212284088135,
+   "Sdwpfh1": 0.6275902390480042
+  }
+ },
+ "TimeKAN/Syn20weak/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5926641821861267,
+   "NP": 0.5812895596027374,
+   "Sdwpfh1": 0.5887677073478699
+  }
+ },
+ "TimeKAN/Syn20weak/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5774664282798767,
+   "NP": 0.5761929750442505,
+   "Sdwpfh1": 0.579015463590622
+  }
+ },
+ "TimeKAN/Syn20null/short": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.6321761906147003,
+   "NP": 0.6342566311359406,
+   "Sdwpfh1": 0.6317959725856781
+  }
+ },
+ "TimeKAN/Syn20null/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6327904462814331,
+   "NP": 0.6326813101768494,
+   "Sdwpfh1": 0.634562760591507
+  }
+ },
+ "PatchTST/Syn5/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5809169709682465,
+   "NP": 0.5222497880458832,
+   "Sdwpfh1": 0.5329810082912445
+  }
+ },
+ "PatchTST/Syn5/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.791808158159256,
+   "NP": 0.7970270812511444,
+   "Sdwpfh1": 0.7904808819293976
+  }
+ },
+ "PatchTST/Syn20/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5426476895809174,
+   "NP": 0.4958997368812561,
+   "Sdwpfh1": 0.49985159933567047
+  }
+ },
+ "PatchTST/Syn20/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.6448724865913391,
+   "NP": 0.6466226279735565,
+   "Sdwpfh1": 0.6450164020061493
+  }
+ },
+ "PatchTST/Syn50/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5264101028442383,
+   "NP": 0.482777938246727,
+   "Sdwpfh1": 0.5029939562082291
+  }
+ },
+ "PatchTST/Syn50/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.631080687046051,
+   "NP": 0.6319417059421539,
+   "Sdwpfh1": 0.6303262710571289
+  }
+ },
+ "PatchTST/Syn20weak/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.5839456915855408,
+   "NP": 0.5729154050350189,
+   "Sdwpfh1": 0.5800724625587463
+  }
+ },
+ "PatchTST/Syn20weak/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.582772821187973,
+   "NP": 0.586068719625473,
+   "Sdwpfh1": 0.5871101021766663
+  }
+ },
+ "PatchTST/Syn20null/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.635977029800415,
+   "NP": 0.6378944218158722,
+   "Sdwpfh1": 0.6361583471298218
+  }
+ },
+ "PatchTST/Syn20null/long": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.6432185173034668,
+   "NP": 0.6468319594860077,
+   "Sdwpfh1": 0.6436636447906494
+  }
+ },
+ "TFT/Syn5/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.551188737154007,
+   "NP": 0.5354780554771423,
+   "Sdwpfh1": 0.5387730896472931
+  }
+ },
+ "TFT/Syn5/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.7855832874774933,
+   "NP": 0.782714307308197,
+   "Sdwpfh1": 0.7849934697151184
+  }
+ },
+ "TFT/Syn20/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.521553635597229,
+   "NP": 0.512016236782074,
+   "Sdwpfh1": 0.5183606743812561
+  }
+ },
+ "TFT/Syn20/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.6374936699867249,
+   "NP": 0.6347634792327881,
+   "Sdwpfh1": 0.6335103511810303
+  }
+ },
+ "TFT/Syn50/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.4989464730024338,
+   "NP": 0.4725717604160309,
+   "Sdwpfh1": 0.47885312139987946
+  }
+ },
+ "TFT/Syn50/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.619949460029602,
+   "NP": 0.618924081325531,
+   "Sdwpfh1": 0.6211329102516174
+  }
+ },
+ "TFT/Syn20weak/short": {
+  "winner": "Energy",
+  "val": {
+   "Energy": 0.5701819360256195,
+   "NP": 0.575105607509613,
+   "Sdwpfh1": 0.5744215548038483
+  }
+ },
+ "TFT/Syn20weak/long": {
+  "winner": "Sdwpfh1",
+  "val": {
+   "Energy": 0.577317088842392,
+   "NP": 0.5751358270645142,
+   "Sdwpfh1": 0.5746181011199951
+  }
+ },
+ "TFT/Syn20null/short": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6264388859272003,
+   "NP": 0.6263613700866699,
+   "Sdwpfh1": 0.6291099488735199
+  }
+ },
+ "TFT/Syn20null/long": {
+  "winner": "NP",
+  "val": {
+   "Energy": 0.6352686285972595,
+   "NP": 0.634567379951477,
+   "Sdwpfh1": 0.6354039013385773
+  }
+ }
+}

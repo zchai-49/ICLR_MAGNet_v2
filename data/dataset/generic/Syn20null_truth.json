@@ -1,0 +1,38 @@
+{
+ "n_exo": 20,
+ "share": 0.0,
+ "beta": 0.0,
+ "seed": 104,
+ "lags": {
+  "X1": 24,
+  "X2": 30,
+  "X3": 36
+ },
+ "roles": {
+  "X1": "parent",
+  "X2": "parent",
+  "X3": "parent",
+  "X4": "chain (X4 -> X1)",
+  "X5": "proxy of X1",
+  "X6": "proxy of X2",
+  "X7": "proxy of X3",
+  "X8": "proxy of X1",
+  "X9": "irrelevant",
+  "X10": "irrelevant",
+  "X11": "irrelevant",
+  "X12": "irrelevant",
+  "X13": "irrelevant",
+  "X14": "irrelevant",
+  "X15": "irrelevant",
+  "X16": "irrelevant",
+  "X17": "irrelevant",
+  "X18": "irrelevant",
+  "X19": "irrelevant",
+  "X20": "irrelevant"
+ },
+ "direct_parents": [
+  "X1",
+  "X2",
+  "X3"
+ ]
+}

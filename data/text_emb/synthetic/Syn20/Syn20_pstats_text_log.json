@@ -1,0 +1,240 @@
+{
+  "dataset": "synthetic",
+  "variables": [
+    "OT",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13",
+    "X14",
+    "X15",
+    "X16",
+    "X17",
+    "X18",
+    "X19",
+    "X20"
+  ],
+  "short": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0022, Std: 1.1699\n- Range: [-3.9676, 4.3026]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8578936096159083\n- acf_lag24 (daily cycle): 0.44386041225188116\n- Coefficient of variation (relative volatility): 534.1015"
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0199, Std: 1.0163\n- Range: [-4.2593, 3.6876]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9407929197758867\n- acf_lag24 (daily cycle): 0.2901663286463897\n- Coefficient of variation (relative volatility): 51.0636"
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0101, Std: 1.0025\n- Range: [-3.6387, 3.8775]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8336784974070177\n- acf_lag24 (daily cycle): 0.20453990937217492\n- Coefficient of variation (relative volatility): 98.7956"
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0075, Std: 1.0022\n- Range: [-3.4257, 3.6690]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8770890924280313\n- acf_lag24 (daily cycle): 0.41814935081862536\n- Coefficient of variation (relative volatility): 134.1074"
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0149, Std: 1.0031\n- Range: [-3.8669, 3.7797]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9338425544219883\n- acf_lag24 (daily cycle): 0.21173104346793795\n- Coefficient of variation (relative volatility): 67.2270"
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0194, Std: 1.0583\n- Range: [-4.4848, 3.8686]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8615363294491577\n- acf_lag24 (daily cycle): 0.26940628208473133\n- Coefficient of variation (relative volatility): 54.6002"
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0099, Std: 1.0500\n- Range: [-3.8628, 3.9600]\n- Lag-1 autocorrelation (step-to-step persistence): 0.769305796054686\n- acf_lag24 (daily cycle): 0.18386239134448687\n- Coefficient of variation (relative volatility): 105.6749"
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0051, Std: 1.0459\n- Range: [-3.7212, 3.8915]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8043221440387432\n- acf_lag24 (daily cycle): 0.38060525745965323\n- Coefficient of variation (relative volatility): 206.1906"
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0190, Std: 1.0560\n- Range: [-4.5842, 3.9701]\n- Lag-1 autocorrelation (step-to-step persistence): 0.865458584910355\n- acf_lag24 (daily cycle): 0.2672368847333649\n- Coefficient of variation (relative volatility): 55.6708"
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0083, Std: 0.9932\n- Range: [-3.8740, 3.8840]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8422628179121691\n- acf_lag24 (daily cycle): 0.22867287592461075\n- Coefficient of variation (relative volatility): 119.8570"
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: -0.0451, Std: 0.9897\n- Range: [-3.3811, 3.6135]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9102396715670616\n- acf_lag24 (daily cycle): 0.15449268072905553\n- Coefficient of variation (relative volatility): 21.9613"
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: -0.0224, Std: 0.9911\n- Range: [-3.5904, 3.0718]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9495226624220202\n- acf_lag24 (daily cycle): 0.396533233762583\n- Coefficient of variation (relative volatility): 44.1931"
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0079, Std: 1.0040\n- Range: [-3.3981, 3.3930]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8770673777356636\n- acf_lag24 (daily cycle): 0.2817611361745275\n- Coefficient of variation (relative volatility): 127.1839"
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0120, Std: 0.9910\n- Range: [-4.0099, 3.8090]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8487955903670783\n- acf_lag24 (daily cycle): 0.27112547550781685\n- Coefficient of variation (relative volatility): 82.3794"
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: -0.0108, Std: 0.9998\n- Range: [-3.4473, 3.8309]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8906096827225582\n- acf_lag24 (daily cycle): 0.1654899799538083\n- Coefficient of variation (relative volatility): 92.7236"
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0014, Std: 1.0029\n- Range: [-3.6118, 3.7177]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8445668486896678\n- acf_lag24 (daily cycle): 0.3030950484303306\n- Coefficient of variation (relative volatility): 703.4354"
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0093, Std: 0.9950\n- Range: [-4.1352, 3.8481]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8354199170276269\n- acf_lag24 (daily cycle): 0.15692207395333585\n- Coefficient of variation (relative volatility): 106.6748"
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: -0.0439, Std: 1.0095\n- Range: [-3.9487, 3.3811]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9053323202615234\n- acf_lag24 (daily cycle): 0.22644591373534387\n- Coefficient of variation (relative volatility): 22.9792"
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0268, Std: 0.9925\n- Range: [-3.4479, 3.5494]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9447308805126492\n- acf_lag24 (daily cycle): 0.3864866986930554\n- Coefficient of variation (relative volatility): 37.0786"
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: -0.0124, Std: 1.0088\n- Range: [-3.4641, 4.0275]\n- Lag-1 autocorrelation (step-to-step persistence): 0.8906858699414386\n- acf_lag24 (daily cycle): 0.488535053917848\n- Coefficient of variation (relative volatility): 81.6359"
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "Observed short-term statistics from training data:\n- Mean: 0.0024, Std: 1.0083\n- Range: [-3.6740, 3.4698]\n- Lag-1 autocorrelation (step-to-step persistence): 0.9174807227782356\n- acf_lag24 (daily cycle): 0.250421631445368\n- Coefficient of variation (relative volatility): 421.7537"
+    }
+  ],
+  "long": [
+    {
+      "variable": "OT",
+      "type": "endo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0022, Std: 1.1699\n- Overall trend: decreasing (slope=-0.000003 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.40831525680870856\n- acf_lag720 (monthly cycle): 0.4313905262349235\n- Seasonality strength (period-to-period variation): moderate (0.193)"
+    },
+    {
+      "variable": "X1",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0199, Std: 1.0163\n- Overall trend: decreasing (slope=-0.000005 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.014326771881314588\n- acf_lag720 (monthly cycle): 0.07929156469388406\n- Seasonality strength (period-to-period variation): strong (0.387)"
+    },
+    {
+      "variable": "X2",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0101, Std: 1.0025\n- Overall trend: decreasing (slope=-0.000009 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.16317839322897743\n- acf_lag720 (monthly cycle): 0.16772645090949018\n- Seasonality strength (period-to-period variation): moderate (0.221)"
+    },
+    {
+      "variable": "X3",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0075, Std: 1.0022\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.38588678820822325\n- acf_lag720 (monthly cycle): 0.39575346413028056\n- Seasonality strength (period-to-period variation): moderate (0.199)"
+    },
+    {
+      "variable": "X4",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0149, Std: 1.0031\n- Overall trend: decreasing (slope=-0.000013 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.003\n- acf_lag168 (weekly cycle): 0.00987948726589575\n- acf_lag720 (monthly cycle): -0.02186960625247777\n- Seasonality strength (period-to-period variation): strong (0.406)"
+    },
+    {
+      "variable": "X5",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0194, Std: 1.0583\n- Overall trend: decreasing (slope=-0.000005 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.013585338926838723\n- acf_lag720 (monthly cycle): 0.0737513681198002\n- Seasonality strength (period-to-period variation): strong (0.371)"
+    },
+    {
+      "variable": "X6",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0099, Std: 1.0500\n- Overall trend: decreasing (slope=-0.000009 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.15109700515631558\n- acf_lag720 (monthly cycle): 0.15835128363881912\n- Seasonality strength (period-to-period variation): moderate (0.213)"
+    },
+    {
+      "variable": "X7",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0051, Std: 1.0459\n- Overall trend: decreasing (slope=-0.000001 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.3525278619622788\n- acf_lag720 (monthly cycle): 0.36554502186198534\n- Seasonality strength (period-to-period variation): moderate (0.190)"
+    },
+    {
+      "variable": "X8",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0190, Std: 1.0560\n- Overall trend: decreasing (slope=-0.000006 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.014324404612699196\n- acf_lag720 (monthly cycle): 0.0718440422466084\n- Seasonality strength (period-to-period variation): strong (0.372)"
+    },
+    {
+      "variable": "X9",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0083, Std: 0.9932\n- Overall trend: decreasing (slope=-0.000011 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.002\n- acf_lag168 (weekly cycle): 0.2122401178904449\n- acf_lag720 (monthly cycle): 0.22136077211706554\n- Seasonality strength (period-to-period variation): moderate (0.209)"
+    },
+    {
+      "variable": "X10",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: -0.0451, Std: 0.9897\n- Overall trend: increasing (slope=0.000004 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.11780565057762742\n- acf_lag720 (monthly cycle): 0.04333904108047687\n- Seasonality strength (period-to-period variation): moderate (0.264)"
+    },
+    {
+      "variable": "X11",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: -0.0224, Std: 0.9911\n- Overall trend: increasing (slope=0.000004 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.180376162785437\n- acf_lag720 (monthly cycle): 0.12863560780004604\n- Seasonality strength (period-to-period variation): strong (0.473)"
+    },
+    {
+      "variable": "X12",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0079, Std: 1.0040\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.22602724149471498\n- acf_lag720 (monthly cycle): 0.27339412393748613\n- Seasonality strength (period-to-period variation): moderate (0.224)"
+    },
+    {
+      "variable": "X13",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0120, Std: 0.9910\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.26526769954597357\n- acf_lag720 (monthly cycle): 0.24185811553608444\n- Seasonality strength (period-to-period variation): moderate (0.199)"
+    },
+    {
+      "variable": "X14",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: -0.0108, Std: 0.9998\n- Overall trend: decreasing (slope=-0.000003 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.14738980970074617\n- acf_lag720 (monthly cycle): 0.1271386006836055\n- Seasonality strength (period-to-period variation): moderate (0.272)"
+    },
+    {
+      "variable": "X15",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0014, Std: 1.0029\n- Overall trend: decreasing (slope=-0.000002 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.29627730909241773\n- acf_lag720 (monthly cycle): 0.3102465645454564\n- Seasonality strength (period-to-period variation): moderate (0.178)"
+    },
+    {
+      "variable": "X16",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0093, Std: 0.9950\n- Overall trend: approximately flat (no significant trend)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.1489170733699426\n- acf_lag720 (monthly cycle): 0.15532979815226594\n- Seasonality strength (period-to-period variation): moderate (0.203)"
+    },
+    {
+      "variable": "X17",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: -0.0439, Std: 1.0095\n- Overall trend: increasing (slope=0.000011 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.002\n- acf_lag168 (weekly cycle): 0.10849058002361055\n- acf_lag720 (monthly cycle): 0.057065849751857606\n- Seasonality strength (period-to-period variation): strong (0.345)"
+    },
+    {
+      "variable": "X18",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0268, Std: 0.9925\n- Overall trend: increasing (slope=0.000009 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.17842026051284923\n- acf_lag720 (monthly cycle): 0.2494133295573403\n- Seasonality strength (period-to-period variation): strong (0.372)"
+    },
+    {
+      "variable": "X19",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: -0.0124, Std: 1.0088\n- Overall trend: increasing (slope=0.000006 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.001\n- acf_lag168 (weekly cycle): 0.48110230440751994\n- acf_lag720 (monthly cycle): 0.48656873079702506\n- Seasonality strength (period-to-period variation): moderate (0.169)"
+    },
+    {
+      "variable": "X20",
+      "type": "exo",
+      "text": "Observed long-term statistics from training data:\n- Mean: 0.0024, Std: 1.0083\n- Overall trend: decreasing (slope=-0.000002 per time step)\n- Trend strength (R\u00b2 of linear fit): 0.000\n- acf_lag168 (weekly cycle): 0.16382447370267164\n- acf_lag720 (monthly cycle): 0.15713055306467022\n- Seasonality strength (period-to-period variation): moderate (0.299)"
+    }
+  ]
+}

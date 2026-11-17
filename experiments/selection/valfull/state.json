@@ -1,0 +1,1688 @@
+{
+ "mech_scores": {
+  "short": {
+   "dual_gated_scale": 0.99346030469747,
+   "dual_only": 0.9956732337228907,
+   "dual_crossattn": 1.0036919052298703,
+   "dual_gated_scale_crossattn": 1.0052714590845837,
+   "crossattn_mq": 1.0058143320315827
+  },
+  "long": {
+   "dual_only": 0.9939500700461988,
+   "crossattn_mq": 0.9956443751560481,
+   "postlinear_film_only": 1.0027077264762172,
+   "gated_mixing_only": 1.0114828454982232
+  }
+ },
+ "sides": {
+  "short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "long": [
+   "dual_only",
+   "crossattn_mq"
+  ]
+ },
+ "hp_top3": {
+  "BE/short|dual_gated_scale": [
+   2,
+   1,
+   0
+  ],
+  "BE/short|dual_only": [
+   2,
+   0,
+   4
+  ],
+  "DE/short|dual_gated_scale": [
+   13,
+   7,
+   1
+  ],
+  "DE/short|dual_only": [
+   0,
+   12,
+   1
+  ],
+  "FR/short|dual_gated_scale": [
+   13,
+   8,
+   2
+  ],
+  "FR/short|dual_only": [
+   13,
+   0,
+   1
+  ],
+  "NP/short|dual_gated_scale": [
+   1,
+   13,
+   0
+  ],
+  "NP/short|dual_only": [
+   1,
+   0,
+   2
+  ],
+  "PJM/short|dual_gated_scale": [
+   4,
+   13,
+   8
+  ],
+  "PJM/short|dual_only": [
+   4,
+   2,
+   0
+  ],
+  "Energy/short|dual_gated_scale": [
+   1,
+   6,
+   7
+  ],
+  "Energy/short|dual_only": [
+   6,
+   13,
+   12
+  ],
+  "Colbun/short|dual_gated_scale": [
+   7,
+   13,
+   4
+  ],
+  "Colbun/short|dual_only": [
+   8,
+   4,
+   13
+  ],
+  "Rapel/short|dual_gated_scale": [
+   13,
+   7,
+   12
+  ],
+  "Rapel/short|dual_only": [
+   7,
+   13,
+   1
+  ],
+  "Sdwpfh1/short|dual_gated_scale": [
+   7,
+   2,
+   12
+  ],
+  "Sdwpfh1/short|dual_only": [
+   7,
+   1,
+   13
+  ],
+  "Sdwpfh2/short|dual_gated_scale": [
+   4,
+   6,
+   0
+  ],
+  "Sdwpfh2/short|dual_only": [
+   6,
+   0,
+   12
+  ],
+  "Sdwpfm1/short|dual_gated_scale": [
+   1,
+   7,
+   12
+  ],
+  "Sdwpfm1/short|dual_only": [
+   7,
+   13,
+   12
+  ],
+  "Sdwpfm2/short|dual_gated_scale": [
+   1,
+   7,
+   13
+  ],
+  "Sdwpfm2/short|dual_only": [
+   0,
+   6,
+   13
+  ],
+  "BE/long|dual_only": [
+   8,
+   12,
+   0
+  ],
+  "BE/long|crossattn_mq": [
+   6,
+   12,
+   8
+  ],
+  "DE/long|dual_only": [
+   0,
+   6,
+   12
+  ],
+  "DE/long|crossattn_mq": [
+   1,
+   7,
+   0
+  ],
+  "FR/long|dual_only": [
+   0,
+   2,
+   13
+  ],
+  "FR/long|crossattn_mq": [
+   7,
+   1,
+   0
+  ],
+  "NP/long|dual_only": [
+   0,
+   6,
+   1
+  ],
+  "NP/long|crossattn_mq": [
+   1,
+   7,
+   0
+  ],
+  "PJM/long|dual_only": [
+   4,
+   0,
+   2
+  ],
+  "PJM/long|crossattn_mq": [
+   8,
+   0,
+   2
+  ],
+  "Energy/long|dual_only": [
+   0,
+   6,
+   12
+  ],
+  "Energy/long|crossattn_mq": [
+   0,
+   6,
+   12
+  ],
+  "Colbun/long|dual_only": [
+   8,
+   2,
+   4
+  ],
+  "Colbun/long|crossattn_mq": [
+   8,
+   2,
+   4
+  ],
+  "Rapel/long|dual_only": [
+   2,
+   8,
+   7
+  ],
+  "Rapel/long|crossattn_mq": [
+   6,
+   12,
+   0
+  ],
+  "Sdwpfh1/long|dual_only": [
+   8,
+   6,
+   2
+  ],
+  "Sdwpfh1/long|crossattn_mq": [
+   6,
+   8,
+   2
+  ],
+  "Sdwpfh2/long|dual_only": [
+   1,
+   13,
+   7
+  ],
+  "Sdwpfh2/long|crossattn_mq": [
+   7,
+   13,
+   1
+  ],
+  "Sdwpfm1/long|dual_only": [
+   6,
+   0,
+   8
+  ],
+  "Sdwpfm1/long|crossattn_mq": [
+   8,
+   2,
+   6
+  ],
+  "Sdwpfm2/long|dual_only": [
+   6,
+   4,
+   12
+  ],
+  "Sdwpfm2/long|crossattn_mq": [
+   8,
+   2,
+   4
+  ]
+ },
+ "hp": {
+  "BE/short|dual_gated_scale": 1,
+  "BE/short|dual_only": 4,
+  "DE/short|dual_gated_scale": 13,
+  "DE/short|dual_only": 0,
+  "FR/short|dual_gated_scale": 13,
+  "FR/short|dual_only": 1,
+  "NP/short|dual_gated_scale": 1,
+  "NP/short|dual_only": 1,
+  "PJM/short|dual_gated_scale": 4,
+  "PJM/short|dual_only": 4,
+  "Energy/short|dual_gated_scale": 6,
+  "Energy/short|dual_only": 6,
+  "Colbun/short|dual_gated_scale": 13,
+  "Colbun/short|dual_only": 13,
+  "Rapel/short|dual_gated_scale": 13,
+  "Rapel/short|dual_only": 13,
+  "Sdwpfh1/short|dual_gated_scale": 7,
+  "Sdwpfh1/short|dual_only": 7,
+  "Sdwpfh2/short|dual_gated_scale": 4,
+  "Sdwpfh2/short|dual_only": 6,
+  "Sdwpfm1/short|dual_gated_scale": 1,
+  "Sdwpfm1/short|dual_only": 7,
+  "Sdwpfm2/short|dual_gated_scale": 1,
+  "Sdwpfm2/short|dual_only": 13,
+  "BE/long|dual_only": 8,
+  "BE/long|crossattn_mq": 6,
+  "DE/long|dual_only": 12,
+  "DE/long|crossattn_mq": 1,
+  "FR/long|dual_only": 0,
+  "FR/long|crossattn_mq": 7,
+  "NP/long|dual_only": 6,
+  "NP/long|crossattn_mq": 1,
+  "PJM/long|dual_only": 0,
+  "PJM/long|crossattn_mq": 0,
+  "Energy/long|dual_only": 0,
+  "Energy/long|crossattn_mq": 0,
+  "Colbun/long|dual_only": 8,
+  "Colbun/long|crossattn_mq": 8,
+  "Rapel/long|dual_only": 7,
+  "Rapel/long|crossattn_mq": 12,
+  "Sdwpfh1/long|dual_only": 8,
+  "Sdwpfh1/long|crossattn_mq": 6,
+  "Sdwpfh2/long|dual_only": 1,
+  "Sdwpfh2/long|crossattn_mq": 1,
+  "Sdwpfm1/long|dual_only": 6,
+  "Sdwpfm1/long|crossattn_mq": 6,
+  "Sdwpfm2/long|dual_only": 6,
+  "Sdwpfm2/long|crossattn_mq": 8
+ },
+ "fix_top3": {
+  "BE/short|dual_gated_scale": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "BE/short|dual_only": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "DE/short|dual_gated_scale": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "DE/short|dual_only": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "FR/short|dual_gated_scale": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "FR/short|dual_only": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "NP/short|dual_gated_scale": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "NP/short|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "PJM/short|dual_gated_scale": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "PJM/short|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Energy/short|dual_gated_scale": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Energy/short|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "none",
+    "default"
+   ]
+  ],
+  "Colbun/short|dual_gated_scale": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ]
+  ],
+  "Colbun/short|dual_only": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "Rapel/short|dual_gated_scale": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Rapel/short|dual_only": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfh1/short|dual_gated_scale": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfh1/short|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Sdwpfh2/short|dual_gated_scale": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Sdwpfh2/short|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm1/short|dual_gated_scale": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm1/short|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm2/short|dual_gated_scale": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm2/short|dual_only": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "BE/long|dual_only": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "BE/long|crossattn_mq": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "DE/long|dual_only": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "DE/long|crossattn_mq": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ]
+  ],
+  "FR/long|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "FR/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "NP/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "NP/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "deep_film",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "PJM/long|dual_only": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "PJM/long|crossattn_mq": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Energy/long|dual_only": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Energy/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "deep_film",
+    "warmup"
+   ]
+  ],
+  "Colbun/long|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "Colbun/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Rapel/long|dual_only": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Rapel/long|crossattn_mq": [
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "deep_film",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Sdwpfh1/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfh1/long|crossattn_mq": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "deep_film",
+    "default"
+   ],
+   [
+    "none",
+    "default"
+   ]
+  ],
+  "Sdwpfh2/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Sdwpfh2/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "deep_film",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm1/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Sdwpfm1/long|crossattn_mq": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm2/long|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Sdwpfm2/long|crossattn_mq": [
+   [
+    "deep_film",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ]
+ },
+ "chosen": {
+  "BE/short|dual_gated_scale": [
+   1,
+   "mlp_backbone",
+   "default"
+  ],
+  "BE/short|dual_only": [
+   4,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "DE/short|dual_gated_scale": [
+   13,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "DE/short|dual_only": [
+   0,
+   "mlp_backbone",
+   "default"
+  ],
+  "FR/short|dual_gated_scale": [
+   13,
+   "mlp_backbone",
+   "default"
+  ],
+  "FR/short|dual_only": [
+   1,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "NP/short|dual_gated_scale": [
+   1,
+   "residual_head",
+   "warmup"
+  ],
+  "NP/short|dual_only": [
+   1,
+   "residual_head",
+   "default"
+  ],
+  "PJM/short|dual_gated_scale": [
+   4,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "PJM/short|dual_only": [
+   4,
+   "mlp_backbone",
+   "default"
+  ],
+  "Energy/short|dual_gated_scale": [
+   6,
+   "patch8",
+   "warmup"
+  ],
+  "Energy/short|dual_only": [
+   6,
+   "residual_head",
+   "default"
+  ],
+  "Colbun/short|dual_gated_scale": [
+   13,
+   "patch8",
+   "default"
+  ],
+  "Colbun/short|dual_only": [
+   13,
+   "patch8",
+   "warmup"
+  ],
+  "Rapel/short|dual_gated_scale": [
+   13,
+   "patch8",
+   "warmup"
+  ],
+  "Rapel/short|dual_only": [
+   13,
+   "residual_head",
+   "warmup"
+  ],
+  "Sdwpfh1/short|dual_gated_scale": [
+   7,
+   "residual_head",
+   "warmup"
+  ],
+  "Sdwpfh1/short|dual_only": [
+   7,
+   "residual_head",
+   "default"
+  ],
+  "Sdwpfh2/short|dual_gated_scale": [
+   4,
+   "none",
+   "default"
+  ],
+  "Sdwpfh2/short|dual_only": [
+   6,
+   "patch8",
+   "warmup"
+  ],
+  "Sdwpfm1/short|dual_gated_scale": [
+   1,
+   "residual_head",
+   "warmup"
+  ],
+  "Sdwpfm1/short|dual_only": [
+   7,
+   "residual_head",
+   "warmup"
+  ],
+  "Sdwpfm2/short|dual_gated_scale": [
+   1,
+   "none",
+   "warmup"
+  ],
+  "Sdwpfm2/short|dual_only": [
+   13,
+   "patch8",
+   "warmup"
+  ],
+  "BE/long|dual_only": [
+   8,
+   "none",
+   "warmup"
+  ],
+  "BE/long|crossattn_mq": [
+   6,
+   "residual_head",
+   "warmup"
+  ],
+  "DE/long|dual_only": [
+   12,
+   "mlp_backbone",
+   "default"
+  ],
+  "DE/long|crossattn_mq": [
+   1,
+   "patch8",
+   "warmup"
+  ],
+  "FR/long|dual_only": [
+   0,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "FR/long|crossattn_mq": [
+   7,
+   "mlp_backbone",
+   "warmup"
+  ],
+  "NP/long|dual_only": [
+   6,
+   "patch8",
+   "warmup"
+  ],
+  "NP/long|crossattn_mq": [
+   1,
+   "deep_film",
+   "warmup"
+  ],
+  "PJM/long|dual_only": [
+   0,
+   "patch8",
+   "default"
+  ],
+  "PJM/long|crossattn_mq": [
+   0,
+   "patch8",
+   "warmup"
+  ],
+  "Energy/long|dual_only": [
+   0,
+   "patch8",
+   "warmup"
+  ],
+  "Energy/long|crossattn_mq": [
+   0,
+   "none",
+   "default"
+  ],
+  "Colbun/long|dual_only": [
+   8,
+   "residual_head",
+   "default"
+  ],
+  "Colbun/long|crossattn_mq": [
+   8,
+   "residual_head",
+   "default"
+  ],
+  "Rapel/long|dual_only": [
+   7,
+   "residual_head",
+   "default"
+  ],
+  "Rapel/long|crossattn_mq": [
+   12,
+   "patch8",
+   "warmup"
+  ],
+  "Sdwpfh1/long|dual_only": [
+   8,
+   "none",
+   "default"
+  ],
+  "Sdwpfh1/long|crossattn_mq": [
+   6,
+   "patch8",
+   "default"
+  ],
+  "Sdwpfh2/long|dual_only": [
+   1,
+   "patch8",
+   "warmup"
+  ],
+  "Sdwpfh2/long|crossattn_mq": [
+   1,
+   "patch8",
+   "warmup"
+  ],
+  "Sdwpfm1/long|dual_only": [
+   6,
+   "patch8",
+   "default"
+  ],
+  "Sdwpfm1/long|crossattn_mq": [
+   6,
+   "none",
+   "default"
+  ],
+  "Sdwpfm2/long|dual_only": [
+   6,
+   "mlp_backbone",
+   "default"
+  ],
+  "Sdwpfm2/long|crossattn_mq": [
+   8,
+   "none",
+   "default"
+  ]
+ },
+ "chosen_scores": {
+  "BE/short|dual_gated_scale": {
+   "residual_head/warmup": 0.9974,
+   "residual_head/default": 1.0069,
+   "mlp_backbone/default": 0.9965
+  },
+  "BE/short|dual_only": {
+   "patch8/warmup": 1.0053,
+   "patch8/default": 1.0053,
+   "mlp_backbone/warmup": 0.992
+  },
+  "DE/short|dual_gated_scale": {
+   "mlp_backbone/default": 1.0066,
+   "mlp_backbone/warmup": 1.0041,
+   "residual_head/warmup": 1.0152
+  },
+  "DE/short|dual_only": {
+   "mlp_backbone/warmup": 1.0106,
+   "mlp_backbone/default": 1.0105,
+   "patch8/warmup": 1.0416
+  },
+  "FR/short|dual_gated_scale": {
+   "mlp_backbone/warmup": 1.0043,
+   "mlp_backbone/default": 1.0025,
+   "residual_head/default": 1.0135
+  },
+  "FR/short|dual_only": {
+   "residual_head/default": 1.0126,
+   "mlp_backbone/warmup": 1.0007,
+   "mlp_backbone/default": 1.0023
+  },
+  "NP/short|dual_gated_scale": {
+   "residual_head/warmup": 1.0013,
+   "residual_head/default": 1.0036,
+   "mlp_backbone/default": 1.0253
+  },
+  "NP/short|dual_only": {
+   "residual_head/warmup": 1.002,
+   "residual_head/default": 1.0006,
+   "mlp_backbone/warmup": 1.0181
+  },
+  "PJM/short|dual_gated_scale": {
+   "mlp_backbone/warmup": 0.9848,
+   "residual_head/default": 1.0137,
+   "residual_head/warmup": 1.0121
+  },
+  "PJM/short|dual_only": {
+   "mlp_backbone/default": 1.006,
+   "mlp_backbone/warmup": 1.0078,
+   "residual_head/warmup": 1.0225
+  },
+  "Energy/short|dual_gated_scale": {
+   "mlp_backbone/warmup": 1.0311,
+   "patch8/warmup": 1.0178,
+   "patch8/default": 1.0183
+  },
+  "Energy/short|dual_only": {
+   "residual_head/warmup": 1.0042,
+   "residual_head/default": 1.004,
+   "none/default": 1.0057
+  },
+  "Colbun/short|dual_gated_scale": {
+   "patch8/default": 0.9952,
+   "patch8/warmup": 1.0095,
+   "none/default": 1.098
+  },
+  "Colbun/short|dual_only": {
+   "patch8/default": 1.0048,
+   "patch8/warmup": 1.0009,
+   "mlp_backbone/default": 1.1479
+  },
+  "Rapel/short|dual_gated_scale": {
+   "patch8/warmup": 1.0078,
+   "patch8/default": 1.0087,
+   "none/warmup": 1.0504
+  },
+  "Rapel/short|dual_only": {
+   "patch8/warmup": 1.0514,
+   "patch8/default": 1.047,
+   "residual_head/warmup": 1.0311
+  },
+  "Sdwpfh1/short|dual_gated_scale": {
+   "none/default": 1.0054,
+   "none/warmup": 1.0048,
+   "residual_head/warmup": 1.0033
+  },
+  "Sdwpfh1/short|dual_only": {
+   "none/default": 1.0114,
+   "none/warmup": 1.0122,
+   "residual_head/default": 0.9889
+  },
+  "Sdwpfh2/short|dual_gated_scale": {
+   "none/default": 1.0028,
+   "none/warmup": 1.0029,
+   "patch8/default": 1.0058
+  },
+  "Sdwpfh2/short|dual_only": {
+   "none/default": 1.006,
+   "none/warmup": 1.006,
+   "patch8/warmup": 1.0032
+  },
+  "Sdwpfm1/short|dual_gated_scale": {
+   "none/default": 1.0197,
+   "none/warmup": 1.0181,
+   "residual_head/warmup": 1.006
+  },
+  "Sdwpfm1/short|dual_only": {
+   "residual_head/warmup": 1.0079,
+   "residual_head/default": 1.014,
+   "none/warmup": 1.0125
+  },
+  "Sdwpfm2/short|dual_gated_scale": {
+   "none/default": 1.0071,
+   "none/warmup": 1.0061,
+   "residual_head/warmup": 1.0205
+  },
+  "Sdwpfm2/short|dual_only": {
+   "patch8/default": 1.022,
+   "patch8/warmup": 0.9966,
+   "mlp_backbone/warmup": 1.0051
+  },
+  "BE/long|dual_only": {
+   "residual_head/default": 1.0093,
+   "residual_head/warmup": 1.0067,
+   "none/warmup": 1.0033
+  },
+  "BE/long|crossattn_mq": {
+   "mlp_backbone/default": 1.0142,
+   "residual_head/warmup": 0.9954,
+   "mlp_backbone/warmup": 1.0057
+  },
+  "DE/long|dual_only": {
+   "mlp_backbone/warmup": 1.0026,
+   "mlp_backbone/default": 1.0025,
+   "none/warmup": 1.0177
+  },
+  "DE/long|crossattn_mq": {
+   "patch8/default": 1.0064,
+   "patch8/warmup": 1.0036,
+   "none/default": 1.0251
+  },
+  "FR/long|dual_only": {
+   "residual_head/warmup": 1.0089,
+   "residual_head/default": 1.0089,
+   "mlp_backbone/warmup": 0.9925
+  },
+  "FR/long|crossattn_mq": {
+   "none/default": 1.0344,
+   "patch8/warmup": 1.0448,
+   "mlp_backbone/warmup": 1.0163
+  },
+  "NP/long|dual_only": {
+   "none/default": 1.0137,
+   "none/warmup": 1.0265,
+   "patch8/warmup": 1.0044
+  },
+  "NP/long|crossattn_mq": {
+   "none/default": 1.079,
+   "deep_film/warmup": 1.0119,
+   "mlp_backbone/default": 1.0404
+  },
+  "PJM/long|dual_only": {
+   "patch8/warmup": 1.0024,
+   "patch8/default": 1.0023,
+   "none/warmup": 1.0103
+  },
+  "PJM/long|crossattn_mq": {
+   "patch8/warmup": 1.002,
+   "none/default": 1.0052,
+   "none/warmup": 1.0051
+  },
+  "Energy/long|dual_only": {
+   "residual_head/default": 1.0174,
+   "residual_head/warmup": 1.002,
+   "patch8/warmup": 0.9749
+  },
+  "Energy/long|crossattn_mq": {
+   "none/default": 0.9994,
+   "residual_head/default": 1.0132,
+   "deep_film/warmup": 1.0363
+  },
+  "Colbun/long|dual_only": {
+   "residual_head/warmup": 1.0439,
+   "residual_head/default": 1.0431,
+   "mlp_backbone/warmup": 1.1059
+  },
+  "Colbun/long|crossattn_mq": {
+   "none/default": 1.0564,
+   "none/warmup": 1.0753,
+   "residual_head/default": 1.0196
+  },
+  "Rapel/long|dual_only": {
+   "mlp_backbone/warmup": 1.0464,
+   "patch8/default": 1.0166,
+   "residual_head/default": 0.9985
+  },
+  "Rapel/long|crossattn_mq": {
+   "none/warmup": 1.004,
+   "deep_film/warmup": 1.023,
+   "patch8/warmup": 0.9997
+  },
+  "Sdwpfh1/long|dual_only": {
+   "none/default": 0.991,
+   "none/warmup": 1.0024,
+   "residual_head/warmup": 1.003
+  },
+  "Sdwpfh1/long|crossattn_mq": {
+   "patch8/default": 1.0002,
+   "deep_film/default": 1.0023,
+   "none/default": 1.0012
+  },
+  "Sdwpfh2/long|dual_only": {
+   "none/default": 1.0057,
+   "none/warmup": 1.0057,
+   "patch8/warmup": 1.0026
+  },
+  "Sdwpfh2/long|crossattn_mq": {
+   "none/default": 1.0117,
+   "deep_film/default": 1.0149,
+   "patch8/warmup": 0.9977
+  },
+  "Sdwpfm1/long|dual_only": {
+   "none/default": 1.0069,
+   "none/warmup": 1.0069,
+   "patch8/default": 1.0006
+  },
+  "Sdwpfm1/long|crossattn_mq": {
+   "none/default": 1.0009,
+   "none/warmup": 1.0014,
+   "patch8/warmup": 1.0047
+  },
+  "Sdwpfm2/long|dual_only": {
+   "mlp_backbone/default": 1.0053,
+   "mlp_backbone/warmup": 1.0054,
+   "residual_head/warmup": 1.0237
+  },
+  "Sdwpfm2/long|crossattn_mq": {
+   "deep_film/warmup": 1.0068,
+   "none/default": 1.0004,
+   "none/warmup": 1.0026
+  }
+ },
+ "deployed": {
+  "BE/short": [
+   "dual_gated_scale"
+  ],
+  "DE/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "FR/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "NP/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "PJM/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Energy/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Colbun/short": [
+   "dual_only"
+  ],
+  "Rapel/short": [
+   "dual_gated_scale"
+  ],
+  "Sdwpfh1/short": [
+   "dual_only"
+  ],
+  "Sdwpfh2/short": [
+   "dual_gated_scale"
+  ],
+  "Sdwpfm1/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Sdwpfm2/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "BE/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "DE/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "FR/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "NP/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "PJM/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Energy/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Colbun/long": [
+   "dual_only"
+  ],
+  "Rapel/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Sdwpfh1/long": [
+   "dual_only",
+   "crossattn_mq"
+  ],
+  "Sdwpfh2/long": [
+   "crossattn_mq"
+  ],
+  "Sdwpfm1/long": [
+   "crossattn_mq"
+  ],
+  "Sdwpfm2/long": [
+   "dual_only"
+  ]
+ },
+ "side_scores": {
+  "BE/short": {
+   "dual_gated_scale": 0.9855,
+   "dual_only": 1.0235,
+   "dual_gated_scale+dual_only": 0.991
+  },
+  "DE/short": {
+   "dual_gated_scale": 0.9963,
+   "dual_only": 1.0138,
+   "dual_gated_scale+dual_only": 0.9899
+  },
+  "FR/short": {
+   "dual_gated_scale": 1.0079,
+   "dual_only": 1.0011,
+   "dual_gated_scale+dual_only": 0.991
+  },
+  "NP/short": {
+   "dual_gated_scale": 1.0035,
+   "dual_only": 1.0032,
+   "dual_gated_scale+dual_only": 0.9933
+  },
+  "PJM/short": {
+   "dual_gated_scale": 1.0028,
+   "dual_only": 1.0067,
+   "dual_gated_scale+dual_only": 0.9905
+  },
+  "Energy/short": {
+   "dual_gated_scale": 1.0033,
+   "dual_only": 1.0001,
+   "dual_gated_scale+dual_only": 0.9965
+  },
+  "Colbun/short": {
+   "dual_gated_scale": 1.0148,
+   "dual_only": 0.9926,
+   "dual_gated_scale+dual_only": 0.9926
+  },
+  "Rapel/short": {
+   "dual_gated_scale": 0.9821,
+   "dual_only": 1.0343,
+   "dual_gated_scale+dual_only": 0.9836
+  },
+  "Sdwpfh1/short": {
+   "dual_gated_scale": 1.0078,
+   "dual_only": 0.9948,
+   "dual_gated_scale+dual_only": 0.9974
+  },
+  "Sdwpfh2/short": {
+   "dual_gated_scale": 0.9978,
+   "dual_only": 1.0036,
+   "dual_gated_scale+dual_only": 0.9985
+  },
+  "Sdwpfm1/short": {
+   "dual_gated_scale": 1.0047,
+   "dual_only": 0.9978,
+   "dual_gated_scale+dual_only": 0.9975
+  },
+  "Sdwpfm2/short": {
+   "dual_gated_scale": 1.002,
+   "dual_only": 1.0017,
+   "dual_gated_scale+dual_only": 0.9964
+  },
+  "BE/long": {
+   "dual_only": 1.0043,
+   "crossattn_mq": 1.0022,
+   "dual_only+crossattn_mq": 0.9935
+  },
+  "DE/long": {
+   "dual_only": 1.0154,
+   "crossattn_mq": 1.0017,
+   "dual_only+crossattn_mq": 0.9829
+  },
+  "FR/long": {
+   "dual_only": 0.9954,
+   "crossattn_mq": 1.0141,
+   "dual_only+crossattn_mq": 0.9905
+  },
+  "NP/long": {
+   "dual_only": 1.0024,
+   "crossattn_mq": 1.0099,
+   "dual_only+crossattn_mq": 0.9877
+  },
+  "PJM/long": {
+   "dual_only": 0.9973,
+   "crossattn_mq": 1.0056,
+   "dual_only+crossattn_mq": 0.997
+  },
+  "Energy/long": {
+   "dual_only": 0.995,
+   "crossattn_mq": 1.0102,
+   "dual_only+crossattn_mq": 0.9949
+  },
+  "Colbun/long": {
+   "dual_only": 0.9936,
+   "crossattn_mq": 1.0096,
+   "dual_only+crossattn_mq": 0.9969
+  },
+  "Rapel/long": {
+   "dual_only": 1.0123,
+   "crossattn_mq": 1.0039,
+   "dual_only+crossattn_mq": 0.9838
+  },
+  "Sdwpfh1/long": {
+   "dual_only": 0.9996,
+   "crossattn_mq": 1.001,
+   "dual_only+crossattn_mq": 0.9994
+  },
+  "Sdwpfh2/long": {
+   "dual_only": 1.0035,
+   "crossattn_mq": 0.9975,
+   "dual_only+crossattn_mq": 0.9989
+  },
+  "Sdwpfm1/long": {
+   "dual_only": 1.0024,
+   "crossattn_mq": 0.9986,
+   "dual_only+crossattn_mq": 0.999
+  },
+  "Sdwpfm2/long": {
+   "dual_only": 0.9943,
+   "crossattn_mq": 1.0102,
+   "dual_only+crossattn_mq": 0.9955
+  }
+ }
+}

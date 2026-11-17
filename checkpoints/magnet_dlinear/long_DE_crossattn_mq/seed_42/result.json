@@ -1,0 +1,129 @@
+{
+ "dataset": "DE",
+ "term": "long",
+ "side": "crossattn_mq",
+ "seed": 42,
+ "option": "detach_gg",
+ "on_top": null,
+ "causal": "sparse_granger_lag0",
+ "lag0_nuisance": true,
+ "sig_flags": {
+  "MAGNET_SIG_PREWHITEN": "1",
+  "MAGNET_LAG0_NUISANCE": "1"
+ },
+ "hparams": {
+  "moving_avg": 13,
+  "magnet_d_model": 32,
+  "lr": 0.0005
+ },
+ "training_regime": "attn_warmup_30ep_GATE_LR_MULT50",
+ "best_val_mae": 0.24655970931053162,
+ "stopped_at_epoch": 29,
+ "test_metrics": {
+  "mae": 0.5755420327186584,
+  "mse": 0.8734421730041504
+ },
+ "ngc_lag": 1,
+ "pretrain_epochs": null,
+ "ratio_after_pretrain": 0.0,
+ "final_ratio": 0.5535762310028076,
+ "n_params_used": 696702,
+ "final_gate": 0.0,
+ "group_norms_lag_x_var": [
+  [
+   0.2615998089313507,
+   0.07938991487026215,
+   0.044019732624292374
+  ],
+  [
+   0.06996168941259384,
+   0.027596810832619667,
+   0.018410885706543922
+  ],
+  [
+   0.41720831394195557,
+   0.11969790607690811,
+   0.09404376149177551
+  ]
+ ],
+ "contemporaneous_norms_exo": [
+  0.3301815688610077,
+  0.21515311300754547
+ ],
+ "elapsed_s": 2223,
+ "timing": {
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "train_epoch_s": [
+   72.818,
+   70.524,
+   72.616,
+   72.355,
+   70.959,
+   74.74,
+   72.945,
+   72.309,
+   69.377,
+   71.481,
+   66.677,
+   70.25,
+   72.895,
+   73.211,
+   72.542,
+   68.341,
+   70.832,
+   69.684,
+   69.35,
+   70.909,
+   70.834,
+   69.247,
+   69.225,
+   70.21,
+   71.904,
+   71.193,
+   67.831,
+   68.516,
+   68.645
+  ],
+  "val_epoch_s": [
+   4.546,
+   5.259,
+   5.497,
+   5.431,
+   5.522,
+   5.476,
+   5.959,
+   5.632,
+   5.185,
+   5.949,
+   5.791,
+   5.694,
+   5.654,
+   5.878,
+   5.751,
+   5.6,
+   5.219,
+   5.246,
+   5.793,
+   6.087,
+   6.017,
+   4.841,
+   5.541,
+   5.731,
+   6.055,
+   5.114,
+   5.381,
+   5.624,
+   4.802
+  ],
+  "mean_train_epoch_s": 70.77310588442046,
+  "epochs_run": 29,
+  "best_epoch": 14,
+  "train_loop_s": 2212.6952459812164,
+  "pretrain_s": null,
+  "peak_gpu_mem_mb": 50.20556640625,
+  "n_params_total": 720996,
+  "n_train_windows": 35612,
+  "batch_size": 32,
+  "load_avg_1m": 26.7119140625
+ }
+}

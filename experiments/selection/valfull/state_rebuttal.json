@@ -1,0 +1,509 @@
+{
+ "sides": {
+  "short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "long": [
+   "dual_only",
+   "crossattn_mq"
+  ]
+ },
+ "mech_source": "valfull/state.json (representative-dataset screen)",
+ "hp_top3": {
+  "Syn5/short|dual_gated_scale": [
+   1,
+   0,
+   12
+  ],
+  "Syn5/short|dual_only": [
+   0,
+   1,
+   12
+  ],
+  "Syn20/short|dual_gated_scale": [
+   4,
+   2,
+   7
+  ],
+  "Syn20/short|dual_only": [
+   2,
+   4,
+   8
+  ],
+  "Syn50/short|dual_gated_scale": [
+   8,
+   4,
+   13
+  ],
+  "Syn50/short|dual_only": [
+   8,
+   2,
+   4
+  ],
+  "Syn20weak/short|dual_gated_scale": [
+   0,
+   1,
+   12
+  ],
+  "Syn20weak/short|dual_only": [
+   0,
+   6,
+   1
+  ],
+  "Syn20null/short|dual_gated_scale": [
+   0,
+   1,
+   6
+  ],
+  "Syn20null/short|dual_only": [
+   4,
+   0,
+   2
+  ],
+  "Weather/short|dual_gated_scale": [
+   2,
+   8,
+   12
+  ],
+  "Weather/short|dual_only": [
+   7,
+   13,
+   8
+  ],
+  "Weather/long|dual_only": [
+   12,
+   2,
+   8
+  ],
+  "Weather/long|crossattn_mq": [
+   12,
+   6,
+   0
+  ]
+ },
+ "hp": {
+  "Syn5/short|dual_gated_scale": 1,
+  "Syn5/short|dual_only": 0,
+  "Syn20/short|dual_gated_scale": 4,
+  "Syn20/short|dual_only": 4,
+  "Syn50/short|dual_gated_scale": 4,
+  "Syn50/short|dual_only": 4,
+  "Syn20weak/short|dual_gated_scale": 1,
+  "Syn20weak/short|dual_only": 0,
+  "Syn20null/short|dual_gated_scale": 0,
+  "Syn20null/short|dual_only": 0,
+  "Weather/short|dual_gated_scale": 2,
+  "Weather/short|dual_only": 8,
+  "Weather/long|dual_only": 12,
+  "Weather/long|crossattn_mq": 12
+ },
+ "fix_top3": {
+  "Syn5/short|dual_gated_scale": [
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Syn5/short|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Syn20/short|dual_gated_scale": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Syn20/short|dual_only": [
+   [
+    "residual_head",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Syn50/short|dual_gated_scale": [
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ],
+  "Syn50/short|dual_only": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ]
+  ],
+  "Syn20weak/short|dual_gated_scale": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Syn20weak/short|dual_only": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Syn20null/short|dual_gated_scale": [
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "none",
+    "default"
+   ]
+  ],
+  "Syn20null/short|dual_only": [
+   [
+    "patch8",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ]
+  ],
+  "Weather/short|dual_gated_scale": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "mlp_backbone",
+    "default"
+   ]
+  ],
+  "Weather/short|dual_only": [
+   [
+    "mlp_backbone",
+    "default"
+   ],
+   [
+    "mlp_backbone",
+    "warmup"
+   ],
+   [
+    "patch8",
+    "default"
+   ]
+  ],
+  "Weather/long|dual_only": [
+   [
+    "none",
+    "default"
+   ],
+   [
+    "none",
+    "warmup"
+   ],
+   [
+    "residual_head",
+    "default"
+   ]
+  ],
+  "Weather/long|crossattn_mq": [
+   [
+    "residual_head",
+    "default"
+   ],
+   [
+    "patch8",
+    "default"
+   ],
+   [
+    "residual_head",
+    "warmup"
+   ]
+  ]
+ },
+ "chosen": {
+  "Syn5/short|dual_gated_scale": [
+   1,
+   "residual_head",
+   "warmup"
+  ],
+  "Syn5/short|dual_only": [
+   0,
+   "none",
+   "warmup"
+  ],
+  "Syn20/short|dual_gated_scale": [
+   4,
+   "residual_head",
+   "default"
+  ],
+  "Syn20/short|dual_only": [
+   4,
+   "residual_head",
+   "default"
+  ],
+  "Syn50/short|dual_gated_scale": [
+   4,
+   "residual_head",
+   "warmup"
+  ],
+  "Syn50/short|dual_only": [
+   4,
+   "patch8",
+   "warmup"
+  ],
+  "Syn20weak/short|dual_gated_scale": [
+   1,
+   "patch8",
+   "default"
+  ],
+  "Syn20weak/short|dual_only": [
+   0,
+   "patch8",
+   "warmup"
+  ],
+  "Syn20null/short|dual_gated_scale": [
+   0,
+   "patch8",
+   "warmup"
+  ],
+  "Syn20null/short|dual_only": [
+   0,
+   "patch8",
+   "default"
+  ],
+  "Weather/short|dual_gated_scale": [
+   2,
+   "residual_head",
+   "default"
+  ],
+  "Weather/short|dual_only": [
+   8,
+   "patch8",
+   "default"
+  ],
+  "Weather/long|dual_only": [
+   12,
+   "none",
+   "warmup"
+  ],
+  "Weather/long|crossattn_mq": [
+   12,
+   "residual_head",
+   "default"
+  ]
+ },
+ "chosen_scores": {
+  "Syn5/short|dual_gated_scale": {
+   "none/warmup": 1.012,
+   "none/default": 1.0113,
+   "residual_head/warmup": 0.9954
+  },
+  "Syn5/short|dual_only": {
+   "residual_head/warmup": 1.0017,
+   "residual_head/default": 1.0017,
+   "none/warmup": 1.0001
+  },
+  "Syn20/short|dual_gated_scale": {
+   "none/default": 1.0027,
+   "none/warmup": 1.0019,
+   "residual_head/default": 1.0007
+  },
+  "Syn20/short|dual_only": {
+   "residual_head/warmup": 1.0011,
+   "residual_head/default": 1.0009,
+   "none/warmup": 1.0055
+  },
+  "Syn50/short|dual_gated_scale": {
+   "mlp_backbone/warmup": 1.0077,
+   "mlp_backbone/default": 1.0077,
+   "residual_head/warmup": 0.9857
+  },
+  "Syn50/short|dual_only": {
+   "patch8/default": 1.0157,
+   "patch8/warmup": 1.0128,
+   "mlp_backbone/warmup": 1.0219
+  },
+  "Syn20weak/short|dual_gated_scale": {
+   "patch8/default": 1.0002,
+   "patch8/warmup": 1.0003,
+   "residual_head/default": 1.0081
+  },
+  "Syn20weak/short|dual_only": {
+   "patch8/warmup": 1.0006,
+   "patch8/default": 1.0006,
+   "residual_head/default": 1.0046
+  },
+  "Syn20null/short|dual_gated_scale": {
+   "patch8/default": 1.0009,
+   "patch8/warmup": 1.0009,
+   "none/default": 1.0048
+  },
+  "Syn20null/short|dual_only": {
+   "patch8/warmup": 1.0016,
+   "patch8/default": 1.0015,
+   "none/warmup": 1.0055
+  },
+  "Weather/short|dual_gated_scale": {
+   "residual_head/default": 0.9792,
+   "mlp_backbone/warmup": 1.0072,
+   "mlp_backbone/default": 1.0107
+  },
+  "Weather/short|dual_only": {
+   "mlp_backbone/default": 1.0239,
+   "mlp_backbone/warmup": 1.0259,
+   "patch8/default": 0.9984
+  },
+  "Weather/long|dual_only": {
+   "none/default": 1.0036,
+   "none/warmup": 1.0023,
+   "residual_head/default": 1.0037
+  },
+  "Weather/long|crossattn_mq": {
+   "residual_head/default": 1.005,
+   "patch8/default": 1.0109,
+   "residual_head/warmup": 1.0054
+  }
+ },
+ "deployed": {
+  "Syn5/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Syn20/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Syn50/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Syn20weak/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Syn20null/short": [
+   "dual_only"
+  ],
+  "Weather/short": [
+   "dual_gated_scale",
+   "dual_only"
+  ],
+  "Weather/long": [
+   "dual_only",
+   "crossattn_mq"
+  ]
+ },
+ "side_scores": {
+  "Syn5/short": {
+   "dual_gated_scale": 0.9981,
+   "dual_only": 1.0049,
+   "dual_gated_scale+dual_only": 0.997
+  },
+  "Syn20/short": {
+   "dual_gated_scale": 1.0029,
+   "dual_only": 0.9986,
+   "dual_gated_scale+dual_only": 0.9986
+  },
+  "Syn50/short": {
+   "dual_gated_scale": 1.0106,
+   "dual_only": 1.0002,
+   "dual_gated_scale+dual_only": 0.9892
+  },
+  "Syn20weak/short": {
+   "dual_gated_scale": 1.0001,
+   "dual_only": 1.0009,
+   "dual_gated_scale+dual_only": 0.999
+  },
+  "Syn20null/short": {
+   "dual_gated_scale": 1.0011,
+   "dual_only": 0.9993,
+   "dual_gated_scale+dual_only": 0.9996
+  },
+  "Weather/short": {
+   "dual_gated_scale": 1.0078,
+   "dual_only": 1.0069,
+   "dual_gated_scale+dual_only": 0.9853
+  },
+  "Weather/long": {
+   "dual_only": 1.0059,
+   "crossattn_mq": 0.999,
+   "dual_only+crossattn_mq": 0.9951
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "BE/short": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "BE/long": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "DE/short": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "DE/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "FR/short": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "FR/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "NP/short": {
+  "moving_avg": 25,
+  "lr": 0.0005
+ },
+ "NP/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "PJM/short": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "PJM/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "Energy/short": {
+  "moving_avg": 51,
+  "lr": 0.0005
+ },
+ "Energy/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "Colbun/short": {
+  "moving_avg": 25,
+  "lr": 0.0005
+ },
+ "Colbun/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "Rapel/short": {
+  "moving_avg": 51,
+  "lr": 0.0005
+ },
+ "Rapel/long": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "Sdwpfh1/short": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "Sdwpfh1/long": {
+  "moving_avg": 25,
+  "lr": 0.0001
+ },
+ "Sdwpfh2/short": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Sdwpfh2/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Sdwpfm1/short": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "Sdwpfm1/long": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "Sdwpfm2/short": {
+  "moving_avg": 13,
+  "lr": 0.0005
+ },
+ "Sdwpfm2/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Syn20weak/long": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "Syn20/short": {
+  "moving_avg": 51,
+  "lr": 0.0001
+ },
+ "Syn50/short": {
+  "moving_avg": 25,
+  "lr": 0.0001
+ },
+ "Syn50/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Syn5/short": {
+  "moving_avg": 51,
+  "lr": 0.001
+ },
+ "Syn20/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Syn20weak/short": {
+  "moving_avg": 25,
+  "lr": 0.0001
+ },
+ "Syn20null/short": {
+  "moving_avg": 25,
+  "lr": 0.0001
+ },
+ "Syn20null/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ },
+ "Syn5/long": {
+  "moving_avg": 13,
+  "lr": 0.0001
+ }
+}
